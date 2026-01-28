@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise Completa - Provão Paulista 2026</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 transition-all duration-300 glass-nav border-b border-white/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-4">
+                    <div class="bg-indigo-600 text-white p-2.5 rounded-xl shadow-lg shadow-indigo-600/20">
+                        <i class="ph ph-chart-bar text-2xl"></i>
+                    </div>
+                    <div>
+                        <h1
+                            class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600">
+                            Provão Paulista 2026</h1>
+                        <p class="text-xs text-gray-500 font-medium uppercase tracking-wider">Diretoria de Ensino -
+                            Sertãozinho</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center gap-6">
+                    <a href="#dashboard"
+                        class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">Dashboard</a>
+                    <a href="#analise-visual"
+                        class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">Slides &
+                        Análises</a>
+                    <a href="#tabela-completa"
+                        class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">Ranking 25
+                        Escolas</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section flex items-end pb-12">
+        <div class="hero-overlay"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full animate-fade-in-up">
+            <div class="max-w-3xl">
+                <span
+                    class="inline-block py-1 px-3 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-100 text-xs font-bold tracking-wider mb-4 backdrop-blur-md">RELATÓRIO
+                    OFICIAL 2026</span>
+                <h2 class="text-5xl md:text-6xl font-extrabold text-white tracking-tight leading-tight mb-4">
+                    Análise de Desempenho Escolar
+                </h2>
+                <p class="text-lg text-slate-200 font-light max-w-xl leading-relaxed">
+                    Consolidação dos resultados de 25 escolas da região de Sertãozinho. Comparativo de eficiência,
+                    volume e indicadores críticos de aprovação.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto" id="dashboard">
+
+        <!-- Executive Summary (KPIs) -->
+        <div class="mb-8 flex items-center justify-between">
+            <h3 class="text-2xl font-bold text-gray-900">Indicadores Chave <span
+                    class="text-xs font-normal text-gray-400 ml-2">(Recálculo Rigoroso)</span></h3>
+            <span class="text-sm text-gray-500">Atualizado: Janeiro 2026</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 animate-fade-in-up"
+            style="animation-delay: 100ms;">
+            <!-- Total Students -->
+            <div class="kpi-card group hover:-translate-y-1 transition-all duration-300">
+                <div class="flex justify-between items-start mb-4">
+                    <div
+                        class="p-3 bg-gray-100 rounded-lg text-gray-600 group-hover:bg-blue-50 group-hover:text-blue-600 transition-colors">
+                        <i class="ph ph-users text-xl"></i>
+                    </div>
+                </div>
+                <!-- Updated per user request: 2191 -->
+                <h3 class="text-3xl font-bold text-gray-900 mb-1">2.191</h3>
+                <p class="text-sm text-gray-500 font-medium">Alunos Matriculados</p>
+                <div class="text-xs text-gray-400 mt-2">Universo Analisado</div>
+            </div>
+
+            <!-- Approval Rate -->
+            <div class="kpi-card group hover:-translate-y-1 transition-all duration-300 border-l-4 border-indigo-500">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="p-3 bg-indigo-50 rounded-lg text-indigo-600">
+                        <i class="ph ph-percent text-xl"></i>
+                    </div>
+                    <span class="text-xs font-bold text-gray-500 bg-gray-100 px-2 py-1 rounded-full">Base
+                        Ajustada</span>
+                </div>
+                <!-- Updated per user request: 8.31% -->
+                <h3 class="text-3xl font-bold text-indigo-900 mb-1">8,31%</h3>
+                <p class="text-sm text-gray-500 font-medium">Taxa Geral de Aprovação</p>
+                <div class="mt-2 text-xs text-gray-400">Total: 182 Aprovados</div>
+            </div>
+
+            <!-- Call 1 -->
+            <div class="kpi-card group hover:-translate-y-1 transition-all duration-300">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="p-3 bg-amber-50 rounded-lg text-amber-600">
+                        <i class="ph ph-number-circle-one text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="text-3xl font-bold text-gray-900 mb-1">121</h3>
+                <p class="text-sm text-gray-500 font-medium">Aprovações 1ª Chamada</p>
+                <div class="mt-2 text-xs text-amber-600 font-medium">66.5% do total</div>
+            </div>
+
+            <!-- Call 2 -->
+            <div class="kpi-card group hover:-translate-y-1 transition-all duration-300">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="p-3 bg-emerald-50 rounded-lg text-emerald-600">
+                        <i class="ph ph-number-circle-two text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="text-3xl font-bold text-gray-900 mb-1">61</h3>
+                <p class="text-sm text-gray-500 font-medium">Aprovações 2ª Chamada</p>
+                <div class="mt-2 text-xs text-emerald-600 font-medium">33.5% do total</div>
+            </div>
+        </div>
+
+        <!-- FULL INTERACTIVE TABLE SECTION (Moved Up for Importance) -->
+        <div class="mb-24" id="tabela-completa">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900">Ranking Detalhado - 25 Escolas</h2>
+                    <p class="text-gray-500 mt-1">Dados oficiais consolidados (1ª + 2ª Chamada) - Recálculo Rigoroso</p>
+                </div>
+                <div class="relative">
+                    <i class="ph ph-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                    <input type="text" id="schoolSearch" placeholder="Buscar escola..."
+                        class="pl-10 pr-4 py-2 border border-gray-200 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 w-64 shadow-sm">
+                </div>
+            </div>
+
+            <div class="glass-panel rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left border-collapse">
+                        <thead class="bg-indigo-50/50 text-gray-600 font-semibold text-xs uppercase tracking-wider">
+                            <tr>
+                                <th class="px-6 py-4 sortable group" onclick="sortTable('rank')">
+                                    Rank <i class="ph ph-caret-up-down inline-block group-hover:text-indigo-600"></i>
+                                </th>
+                                <th class="px-6 py-4 sortable group" onclick="sortTable('name')">
+                                    Escola <i class="ph ph-caret-up-down inline-block group-hover:text-indigo-600"></i>
+                                </th>
+                                <th class="px-6 py-4 text-center sortable group" onclick="sortTable('students')">
+                                    Alunos <i class="ph ph-caret-up-down inline-block group-hover:text-indigo-600"></i>
+                                </th>
+                                <th class="px-6 py-4 text-center sortable group" onclick="sortTable('approved')">
+                                    Aprovados <i
+                                        class="ph ph-caret-up-down inline-block group-hover:text-indigo-600"></i>
+                                </th>
+                                <th class="px-6 py-4 text-center sortable group" onclick="sortTable('rate')">
+                                    Taxa (%) <i
+                                        class="ph ph-caret-up-down inline-block group-hover:text-indigo-600"></i>
+                                </th>
+                                <th class="px-6 py-4 text-center">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 bg-white" id="schoolsTableBody">
+                            <!-- JS Generated Rows -->
+                        </tbody>
+                    </table>
+                </div>
+                <div
+                    class="p-4 bg-gray-50 border-t border-gray-100 flex justify-between items-center text-xs text-gray-500">
+                    <span>Mostrando todas as 25 escolas</span>
+                    <span>Consolidação Oficial: 182 Aprovados</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- VISUAL ANALYSIS SECTION (REPLACED CHARTS WITH SLIDES) -->
+        <div class="space-y-16 mb-20" id="analise-visual">
+
+            <div class="flex items-center gap-4 mb-4">
+                <div class="h-px bg-gray-200 flex-grow"></div>
+                <h2 class="text-2xl font-bold text-gray-400 uppercase tracking-widest">Apresentação Visual e Gráfica
+                </h2>
+                <div class="h-px bg-gray-200 flex-grow"></div>
+            </div>
+
+            <!-- Slide 1: Ranking Completo (Replacing Previous Chart) -->
+            <div class="glass-panel p-6 rounded-2xl animate-fade-in-up">
+                <h3 class="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2 border-b border-gray-100 pb-4">
+                    <span
+                        class="bg-indigo-100 text-indigo-700 w-8 h-8 rounded-full flex items-center justify-center text-sm">1</span>
+                    Ranking Completo das Escolas
+                </h3>
+                <div class="relative group rounded-xl overflow-hidden shadow-lg border border-gray-200">
+                    <img src="1.png" alt="Ranking Completo"
+                        class="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-[1.01] cursor-zoom-in"
+                        onclick="openModal(this.src)">
+                    <div
+                        class="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors pointer-events-none">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slides 2 & 3: Distribuição e Eficiência -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="glass-panel p-6 rounded-2xl animate-fade-in-left">
+                    <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
+                        <span
+                            class="bg-indigo-100 text-indigo-700 w-6 h-6 rounded-full flex items-center justify-center text-xs">2</span>
+                        Distribuição de Volume
+                    </h3>
+                    <img src="2.png" alt="Distribuição"
+                        class="w-full h-auto rounded-lg shadow-md hover:shadow-xl transition-shadow cursor-zoom-in"
+                        onclick="openModal(this.src)">
+                </div>
+
+                <div class="glass-panel p-6 rounded-2xl animate-fade-in-right">
+                    <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
+                        <span
+                            class="bg-indigo-100 text-indigo-700 w-6 h-6 rounded-full flex items-center justify-center text-xs">3</span>
+                        Eficiência x Tamanho
+                    </h3>
+                    <img src="3.png" alt="Eficiência x Tamanho"
+                        class="w-full h-auto rounded-lg shadow-md hover:shadow-xl transition-shadow cursor-zoom-in"
+                        onclick="openModal(this.src)">
+                </div>
+            </div>
+
+            <!-- Slides 4, 5 & 6 -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="glass-panel p-5 rounded-xl">
+                    <h4 class="text-sm font-bold text-gray-600 uppercase mb-3 text-center">Composição</h4>
+                    <img src="4.png" class="w-full rounded-lg shadow hover:shadow-lg transition-all cursor-zoom-in"
+                        onclick="openModal(this.src)">
+                </div>
+                <div class="glass-panel p-5 rounded-xl">
+                    <h4 class="text-sm font-bold text-gray-600 uppercase mb-3 text-center">Dispersão</h4>
+                    <img src="5.png" class="w-full rounded-lg shadow hover:shadow-lg transition-all cursor-zoom-in"
+                        onclick="openModal(this.src)">
+                </div>
+                <div class="glass-panel p-5 rounded-xl">
+                    <h4 class="text-sm font-bold text-gray-600 uppercase mb-3 text-center">Resultados Finais</h4>
+                    <img src="6.png" class="w-full rounded-lg shadow hover:shadow-lg transition-all cursor-zoom-in"
+                        onclick="openModal(this.src)">
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-sm mb-2">Desenvolvido para Diretoria de Ensino - Região Sertãozinho</p>
+            <p class="text-xs opacity-50">Dados sujeitos a conferência conforme atualização de 28/01/2026</p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal"
+        class="fixed inset-0 z-[100] hidden bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 transition-opacity duration-300 opacity-0 pointer-events-none"
+        onclick="closeModal()">
+        <span class="absolute top-4 right-4 text-white p-2 cursor-pointer hover:text-indigo-400 transition-colors">
+            <i class="ph ph-x text-3xl"></i>
+        </span>
+        <img id="modalImage" src="" class="max-w-full max-h-[90vh] rounded shadow-2xl animate-scale-in">
+    </div>
+
+    <script>
+        // --- FULL CORRECTED DATASET (Based on prompt) ---
+        const schools = [
+            { rank: 1, name: "DOLORES BELEM NOVAES", students: 26, approved: 10, rate: 38.46 },
+            { rank: 2, name: "DOLORES MARTINS DE CASTRO", students: 9, approved: 3, rate: 33.33 },
+            { rank: 3, name: "YOLANDA LUIZ SICHIERI", students: 148, approved: 36, rate: 24.32 },
+            { rank: 4, name: "ANTONIO FURLAN JUNIOR", students: 34, approved: 8, rate: 23.53 },
+            { rank: 5, name: "BASILIO RODRIGUES DA SILVA", students: 97, approved: 20, rate: 20.62 },
+            { rank: 6, name: "NESTOR GOMES DE ARAUJO", students: 73, approved: 12, rate: 16.44 },
+            { rank: 7, name: "MARIA CONCEICAO R. S. MAGON", students: 38, approved: 6, rate: 15.79 },
+            { rank: 8, name: "WINSTON CHURCHILL", students: 140, approved: 19, rate: 13.57 },
+            { rank: 9, name: "MARIA FALCONI DE FELICIO", students: 27, approved: 3, rate: 11.11 },
+            { rank: 10, name: "DOMINGOS PARO", students: 33, approved: 3, rate: 9.09 },
+            { rank: 11, name: "MARIA ELYDE M. DOS SANTOS", students: 63, approved: 5, rate: 7.94 },
+            { rank: 12, name: "MAURICIO MONTECCHI", students: 123, approved: 6, rate: 4.88 },
+            { rank: 13, name: "ORMINDA GUIMARAES COTRIM", students: 126, approved: 6, rate: 4.76 },
+            { rank: 14, name: "JOSE LUIZ DE SIQUEIRA", students: 175, approved: 8, rate: 4.57 },
+            { rank: 15, name: "BRUNO PIERONI", students: 188, approved: 8, rate: 4.26 },
+            { rank: 16, name: "LUIZ MARCARI", students: 134, approved: 5, rate: 3.73 },
+            { rank: 17, name: "NICIA FABIOLA ZANUTO GIRALDI", students: 57, approved: 2, rate: 3.51 },
+            { rank: 18, name: "FERRUCIO CHIARATTI", students: 123, approved: 4, rate: 3.25 },
+            { rank: 19, name: "EDITH SILVEIRA DALMASO", students: 156, approved: 5, rate: 3.21 },
+            { rank: 20, name: "ISAIAS JOSE FERREIRA", students: 65, approved: 2, rate: 3.08 },
+            { rank: 21, name: "ANNA PASSAMONTI BALARDIN", students: 201, approved: 5, rate: 2.49 },
+            { rank: 22, name: "MARIO LINS", students: 35, approved: 1, rate: 2.86 },
+            { rank: 23, name: "PLINIO BERARDO", students: 227, approved: 4, rate: 1.76 },
+            { rank: 24, name: "ODULFO DE OLIVEIRA GUIMARAES", students: 91, approved: 1, rate: 1.10 },
+            { rank: 25, name: "ADELIA FRASCINO", students: 2, approved: 0, rate: 0.00 }
+        ];
+
+        let currentSort = { column: 'rank', asc: true };
+
+        function getStatus(rate) {
+            if (rate >= 20) return `<span class="badge-success">Excelente</span>`;
+            if (rate >= 10) return `<span class="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs font-bold">Bom</span>`;
+            if (rate >= 5) return `<span class="bg-gray-100 text-gray-600 px-2 py-1 rounded text-xs font-bold">Regular</span>`;
+            if (rate > 0) return `<span class="bg-amber-100 text-amber-700 px-2 py-1 rounded text-xs font-bold">Atenção</span>`;
+            return `<span class="badge-critical">Crítico</span>`;
+        }
+
+        function renderTable(data, animation = true) {
+            const tbody = document.getElementById('schoolsTableBody');
+            tbody.innerHTML = '';
+
+            data.forEach((school, index) => {
+                const tr = document.createElement('tr');
+                tr.className = `hover:bg-indigo-50/50 transition-colors border-b border-gray-50 group hover:border-indigo-100 ${animation ? 'table-row-animate' : ''}`;
+                if (animation) tr.style.animationDelay = `${index * 30}ms`;
+
+                // Highlight Top 3 medals
+                let rankDisplay = school.rank;
+                if (school.rank === 1) rankDisplay = '🥇 1';
+                else if (school.rank === 2) rankDisplay = '🥈 2';
+                else if (school.rank === 3) rankDisplay = '🥉 3';
+
+                tr.innerHTML = `
+                    <td class="px-6 py-4 text-gray-500 font-medium">${rankDisplay}</td>
+                    <td class="px-6 py-4 font-semibold text-gray-800 group-hover:text-indigo-700 transition-colors">${school.name}</td>
+                    <td class="px-6 py-4 text-center text-gray-500">${school.students}</td>
+                    <td class="px-6 py-4 text-center font-bold text-gray-900">${school.approved}</td>
+                    <td class="px-6 py-4 text-center">
+                        <span class="${school.rate >= 10 ? 'text-indigo-600 font-bold' : 'text-gray-600'}">
+                            ${school.rate.toFixed(2).replace('.', ',')}%
+                        </span>
+                        <div class="h-1 w-12 bg-gray-100 rounded-full mx-auto mt-1 overflow-hidden">
+                             <div class="h-full ${school.rate >= 20 ? 'bg-green-500' : 'bg-indigo-500'}" style="width: ${school.rate}%"></div>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4 text-center">${getStatus(school.rate)}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function sortTable(column) {
+            if (currentSort.column === column) {
+                currentSort.asc = !currentSort.asc;
+            } else {
+                currentSort.column = column;
+                currentSort.asc = column === 'name' ? true : false; // Default desc for numbers, asc for name
+            }
+
+            const sorted = [...schools].sort((a, b) => {
+                let valA = a[column];
+                let valB = b[column];
+
+                if (typeof valA === 'string') {
+                    valA = valA.toLowerCase();
+                    valB = valB.toLowerCase();
+                }
+
+                if (valA < valB) return currentSort.asc ? -1 : 1;
+                if (valA > valB) return currentSort.asc ? 1 : -1;
+                return 0;
+            });
+
+            renderTable(sorted, false);
+        }
+
+        // --- IMAGE MODAL ---
+        function openModal(src) {
+            const modal = document.getElementById('imageModal');
+            const img = document.getElementById('modalImage');
+
+            modal.classList.remove('hidden', 'pointer-events-none');
+            requestAnimationFrame(() => {
+                modal.classList.remove('opacity-0');
+            });
+
+            img.src = src;
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.add('opacity-0');
+
+            setTimeout(() => {
+                modal.classList.add('hidden', 'pointer-events-none');
+                document.body.style.overflow = 'auto';
+            }, 300);
+        }
+
+        // --- INIT ---
+        document.addEventListener('DOMContentLoaded', () => {
+            renderTable(schools);
+
+            // Search Filter
+            document.getElementById('schoolSearch').addEventListener('input', (e) => {
+                const term = e.target.value.toLowerCase();
+                const filtered = schools.filter(s => s.name.toLowerCase().includes(term));
+                renderTable(filtered, false);
+            });
+
+            // Modal Escape Key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === "Escape") closeModal();
+            });
+        });
+
+    </script>
+</body>
+
+</html>
