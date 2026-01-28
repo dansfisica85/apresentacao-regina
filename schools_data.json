@@ -1,0 +1,960 @@
+{
+  "JOSE LUIZ DE SIQUEIRA PROFESSOR": [
+    {
+      "name": "Guilherme Augusto Guateli Rosa",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Everaldo Gabriel Santos Silva",
+      "course": "1730711 - Biocombustíveis - Manhã - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Hebert Henrique Santos Da Silveira",
+      "course": "1730647 - Gestão Empresarial - EaD - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Igor Ferreira Prates",
+      "course": "1730647 - Gestão Empresarial - EaD - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Fernanda Piati Da Silva",
+      "course": "58013/0 - Odontologia (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Hemily Sthefany De Oliveira",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Max Diorranis Da Silva Teixeira",
+      "course": "2571173 - Refrigeração, Ventilação e Ar Condicionado - Noite - Fatec Itaquera - \"Prof. Miguel Reale\" - Município de São Paulo",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Meyssa Eduarda Ferreira Nunes Santos",
+      "course": "1730647 - Gestão Empresarial - EaD - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    }
+  ],
+  "LUIZ MARCARI": [
+    {
+      "name": "Alan Keviller Silva Lopes",
+      "course": "1730713 - Biocombustíveis - Noite - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Evelly Carvalho Costa",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Raquel De Oliveira Alves",
+      "course": "1730647 - Gestão Empresarial - EaD - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Jair De Carvalho Neto",
+      "course": "1730647 - Gestão Empresarial - EaD - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Octavio Henrique Matos Dos Santos",
+      "course": "1730647 - Gestão Empresarial - EaD - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    }
+  ],
+  "NESTOR GOMES DE ARAUJO PROFESSOR": [
+    {
+      "name": "Caique Silvestre De Sousa",
+      "course": "2840891 - Gestão de Recursos Humanos - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Josiane Souza Oliveira",
+      "course": "2840891 - Gestão de Recursos Humanos - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Ludmila Souza Lages",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Abliel Cardoso De Aguilar",
+      "course": "59080/0 - Ciência da Computação (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Alirio Rodrigues De Oliveira Neto",
+      "course": "2840481 - Análise e Desenvolvimento de Sistemas - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Everton Alves Dos Santos",
+      "course": "1760791 - Mecatrônica Industrial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Jeanirlan Martins Amorim",
+      "course": "18250/0 - Engenharia Mecatrônica (Bacharelado) - Integral - Escola de Engenharia de São Carlos",
+      "ies": "USP"
+    },
+    {
+      "name": "Mariani Vitoria Tazinano",
+      "course": "2841163 - Gestão de Negócios e Inovação - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Fernanda Ribeiro Guima",
+      "course": "0220702 - Agronegócio - Tarde - Fatec Taquaritinga - \"Marlene Maria Miletta Servidoni\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Julia Silva Ribeiro",
+      "course": "164 - Química - Bacharelado em Química Ambiental e Licenciatura em Química - integral - Instituto de Biociências, Letras e Ciências Exatas - São José do Rio Preto",
+      "ies": "UNESP"
+    },
+    {
+      "name": "Ana Luiza Souza Dos Santos",
+      "course": "1731211 - Marketing - Manhã - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Luiz Henrique Oliveira Vieira",
+      "course": "2840481 - Análise e Desenvolvimento de Sistemas - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    }
+  ],
+  "MARIO LINS DOUTOR": [
+    {
+      "name": "Enzo Miguel Alves Da Silva",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "PLINIO BERARDO PROFESSOR": [
+    {
+      "name": "Marina Alexandre Dos Santos",
+      "course": "1090891 - Gestão de Recursos Humanos - Manhã - Fatec Franca – “Dr. Thomaz Novelino”",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Vinicius Santos Correia Silva",
+      "course": "59071/4 - Química (Bacharelado e Licenciatura) - Noturno - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Eduarda Scarlett Costa Fernandes",
+      "course": "2840613 - Sistemas Biomédicos - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Davi Emanuel Brito Da Silva",
+      "course": "1091393 - Desenvolvimento de Software Multiplataforma - Noite - Fatec Franca – “Dr. Thomaz Novelino”",
+      "ies": "FATEC"
+    }
+  ],
+  "MARIA FALCONI DE FELICIO": [
+    {
+      "name": "Joicy Maria Cunha Camargo",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Luis Felipe Marim",
+      "course": "0021683 - Engenharia Civil - Noite - Fatec São Paulo - Município de São Paulo",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Pedro Guilherme Da Silva",
+      "course": "59023/100 - Química (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    }
+  ],
+  "ORMINDA GUIMARAES COTRIM": [
+    {
+      "name": "Felipe Dos Santos Moura",
+      "course": "2840483 - Análise e Desenvolvimento de Sistemas - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Beatriz Carolaine De Oliveira",
+      "course": "1731211 - Marketing - Manhã - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Lucas Eugenio Mascanhe",
+      "course": "2801263 - Big Data no Agronegócio - Noite - Fatec Bebedouro – “Jorge Caram Sabbag”",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Gabriel Souza De Moraes",
+      "course": "1730713 - Biocombustíveis - Noite - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Beatriz Almeida Maciel",
+      "course": "1730713 - Biocombustíveis - Noite - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Luiz Henrique Lima Olivato",
+      "course": "1730873 - Gestão Ambiental - Noite - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    }
+  ],
+  "DOMINGOS PARO": [
+    {
+      "name": "Gabriel Pereira De Campos",
+      "course": "1730713 - Biocombustíveis - Noite - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Gabriel Victor De Souza",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Yasmim Ciconte Gomes",
+      "course": "090 - Farmácia -  INTEGRAL - Faculdade de Ciências Farmacêuticas",
+      "ies": "UNESP"
+    }
+  ],
+  "MAURICIO MONTECCHI": [
+    {
+      "name": "Abraao Barros Oliveira",
+      "course": "108 - Geografia - Licenciatura -  NOTURNO - Instituto de Biociências",
+      "ies": "UNESP"
+    },
+    {
+      "name": "Pedro Filipe Borges Da Silva",
+      "course": "2840483 - Análise e Desenvolvimento de Sistemas - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Lougan Felipe Cyrino Moreira",
+      "course": "1760791 - Mecatrônica Industrial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Jhenifer Rodrigues",
+      "course": "2800743 - Logística - Noite - Fatec Bebedouro – “Jorge Caram Sabbag”",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Mariana Silva De Araujo",
+      "course": "22013/0 - Enfermagem (Bacharelado) - Integral - Escola de Enfermagem de Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Jose Wilson Da Cruz",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "DOLORES MARTINS DE CASTRO PROFESSORA": [
+    {
+      "name": "Eduardo Mateus Lechuga Sales",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Maxwel Mantovani Lopes Da Silva",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Gabriel Mantovani Lopes Da Silva",
+      "course": "2840481 - Análise e Desenvolvimento de Sistemas - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    }
+  ],
+  "DOLORES BELEM NOVAES PROFESSORA": [
+    {
+      "name": "Anderson Araujo Marques",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Iago Pacifico De Almeida Bregge",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Isadora De Sousa Silva",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Luiz Henrique Quintino Dos Santos",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Poliany Aparecida Carvalho Dias",
+      "course": "59023/100 - Química (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Stefany Lavinia Reis Prado",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Thiago Pacifico De Almeida Bregge",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Yona Ferreira Dos Santos",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Gabriel Sousa Vieira",
+      "course": "1731211 - Marketing - Manhã - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Isabela De Sousa Silva",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "YOLANDA LUIZ SICHIERI PROFESSORA": [
+    {
+      "name": "Breno Rafael Silva Souza",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Joao Alfred Moura De Almeida",
+      "course": "98002/0 - Educação Física (Bacharelado) - Integral - Escola de Educação Física e Esporte de Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Ana Paula Mendes",
+      "course": "58013/0 - Odontologia (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Aryane Ribeiro Toscano",
+      "course": "2840481 - Análise e Desenvolvimento de Sistemas - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Bruna Luz Soares",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Debora Carla Silva Sousa",
+      "course": "2840483 - Análise e Desenvolvimento de Sistemas - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Eliane De Almeida Santos",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Joao Gabriel Oliveira Nascimento",
+      "course": "1760983 - Mecânica - Processos de Soldagem - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Joao Pedro Rosario Trindade",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Julia Azevedo Silva",
+      "course": "17400/0 - Nutrição e Metabolismo (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Kelly Goncalves Gomes",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Noemi Dos Anjos Azevedo",
+      "course": "2840481 - Análise e Desenvolvimento de Sistemas - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Ryan Guimaraes Dos Santos",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Vitoria Carolina Cordeiro De Oliveira",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Any Alisse Dos Santos Ribeiro",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Francisco De Assis Silva",
+      "course": "2971391 - Desenvolvimento de Software Multiplataforma - Manhã - Fatec Matão - \"Luiz Marchesan\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Ingrid Stefani Soares De Araujo",
+      "course": "18023/0 - Engenharia Civil (Bacharelado) - Integral - Escola de Engenharia de São Carlos",
+      "ies": "USP"
+    },
+    {
+      "name": "Joao Guilherme Da Silva",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Marcos Antonio Dos Santos Silva",
+      "course": "1760983 - Mecânica - Processos de Soldagem - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Jose Gabriel Dos Santos Sousa",
+      "course": "1730713 - Biocombustíveis - Noite - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Isabela Cavalcante Do Nascimento",
+      "course": "1760791 - Mecatrônica Industrial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Kailane Talita Roque Nunes",
+      "course": "1760983 - Mecânica - Processos de Soldagem - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Kaua Cristian Gnan Barbosa",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Maria Vitoria Prades Silva",
+      "course": "2840891 - Gestão de Recursos Humanos - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Marco Antonio Braga",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Robson Martins De Sousa",
+      "course": "1760983 - Mecânica - Processos de Soldagem - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Ryan Augusto Guimaraes Brozinga",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Arthur Jose Sapucaia",
+      "course": "1760983 - Mecânica - Processos de Soldagem - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Helen De Oliveira Silva",
+      "course": "2840891 - Gestão de Recursos Humanos - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Hemanuely Da Silva Figueiredo",
+      "course": "2880753 - Gestão Comercial - Noite - Fatec Araraquara – “Prof. José Arana Varela”",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Joao Pedro Rosario Trindade",
+      "course": "2840483 - Análise e Desenvolvimento de Sistemas - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Anthony Luiz Gomes Da Silva",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Monique Da Silva Montalvao",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Thauane Roberta Moreira De Oliveira",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Joao Lucas Sicchieri Nascimento",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "BASILIO RODRIGUES DA SILVA PROFESSOR": [
+    {
+      "name": "Anna Livia Dos Santos",
+      "course": "2981403 - Gestão Hospitalar - Noite - Fatec Barretos – \"Profa. Édi Salvi Lima\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Breno Pietro Carneiro",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Joao Lucas Nunes Tasquete",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Julia Santanna Pinto",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Maisa Moreira De Souza Rocha",
+      "course": "59041/0 - Física Médica (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Gabriel Pavanelli Siqueira",
+      "course": "81302/4 - Finanças e Negócios (Bacharelado) - Noturno - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Otavio Ferreira Lopes",
+      "course": "59071/4 - Química (Bacharelado e Licenciatura) - Noturno - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Ana Clara Vieira De Jesus",
+      "course": "58013/0 - Odontologia (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Camila Almeida De Sousa",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Daniel Barbosa Pereira",
+      "course": "1760983 - Mecânica - Processos de Soldagem - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Hiago Locatelli",
+      "course": "055 - Engenharia Agronômica -  INTEGRAL - Faculdade de Ciências Agrárias e Veterinárias",
+      "ies": "UNESP"
+    },
+    {
+      "name": "Laura Coelho Da Silva",
+      "course": "090 - Farmácia -  INTEGRAL - Faculdade de Ciências Farmacêuticas",
+      "ies": "UNESP"
+    },
+    {
+      "name": "Taina Silva Marques",
+      "course": "1730647 - Gestão Empresarial - EaD - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Emily Beatriz Cabral Da Silva",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Livia Caroliny Gomes Marcondes",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Maria Clara Valsique Sao Miguel",
+      "course": "2840891 - Gestão de Recursos Humanos - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Maria Luiza Silva Costa",
+      "course": "59061/4 - Biblioteconomia e Ciência da Informação (Bacharelado) - Noturno - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Ana Livia Da Silva Santos",
+      "course": "2981403 - Gestão Hospitalar - Noite - Fatec Barretos – \"Profa. Édi Salvi Lima\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Jonathan Ademilson Dias Santos",
+      "course": "1760983 - Mecânica - Processos de Soldagem - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Isabela Rodrigues Paulino",
+      "course": "1760983 - Mecânica - Processos de Soldagem - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "ISAIAS JOSE FERREIRA DOUTOR": [
+    {
+      "name": "Wellington De Sousa Andrade",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Guilherme Lucas Cunis",
+      "course": "11010/0 - Engenharia Agronômica (Bacharelado) - Integral - Escola Superior de Agricultura \"Luiz de Queiroz\"",
+      "ies": "USP"
+    }
+  ],
+  "BRUNO PIERONI PROFESSOR": [
+    {
+      "name": "Gabriel Moraes Silva",
+      "course": "2840613 - Sistemas Biomédicos - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Ingrid Tavares Lima",
+      "course": "2840891 - Gestão de Recursos Humanos - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Sophia Rissatti Ramos",
+      "course": "59031/100 - Psicologia (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Bryan Azevedo Araujo",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Caroline Fernanda De Souza Rodrigues",
+      "course": "2840891 - Gestão de Recursos Humanos - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Jose Gustavo Oliveira Peixe",
+      "course": "2840481 - Análise e Desenvolvimento de Sistemas - Manhã - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Pedro Henrique Rodrigues De Oliveira",
+      "course": "1760791 - Mecatrônica Industrial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Ariel Pereira De Souza",
+      "course": "1730873 - Gestão Ambiental - Noite - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    }
+  ],
+  "WINSTON CHURCHILL": [
+    {
+      "name": "Luciano Oliveira De Sa",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Rayane Rafaela Quirino",
+      "course": "100 - Ciências do Esporte - Integral - Limeira",
+      "ies": "UNICAMP"
+    },
+    {
+      "name": "Amanda Kathrein Ferreira",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Arthur Xavier Da Silva",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Graziela Vitoria Dos Santos De Oliveira",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Helen De Medeiros Maciel",
+      "course": "74201/0 - Medicina Veterinária (Bacharelado) - Integral - Faculdade de Zootecnia e Engenharia de Alimentos",
+      "ies": "USP"
+    },
+    {
+      "name": "Heloise Silva Souza",
+      "course": "17400/0 - Nutrição e Metabolismo (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Joao Pedro Scomparin Pereira",
+      "course": "1760791 - Mecatrônica Industrial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Kamilla Da Silva Ferrari Ramos",
+      "course": "59061/4 - Biblioteconomia e Ciência da Informação (Bacharelado) - Noturno - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Leticia Pereira De Souza",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Marcos William Lopes Andrade",
+      "course": "1760791 - Mecatrônica Industrial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Felipe Bryan Da Silva",
+      "course": "17061/0 - Informática Biomédica (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Pedro Henrique Nobre De Jesus",
+      "course": "188 - Engenharia de Telecomunicações - Integral - Limeira",
+      "ies": "UNICAMP"
+    },
+    {
+      "name": "Bruno Otavio Nobre Nicolucci",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Gabriel Camilo De Sousa",
+      "course": "041 - Direito - matutino - Faculdade de Ciências Humanas e Sociais - Franca",
+      "ies": "UNESP"
+    },
+    {
+      "name": "Alexi Maciel Neto",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Helen De Medeiros Maciel",
+      "course": "133 - Medicina Veterinária - integral - Faculdade de Ciências Agrárias e Veterinárias - Jaboticabal",
+      "ies": "UNESP"
+    },
+    {
+      "name": "Felipe Bryan Da Silva",
+      "course": "59080/0 - Ciência da Computação (Bacharelado) - Integral - Ribeirão Preto",
+      "ies": "USP"
+    },
+    {
+      "name": "Nickolas John Silva Dias",
+      "course": "1760791 - Mecatrônica Industrial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "ANTONIO FURLAN JUNIOR DOUTOR": [
+    {
+      "name": "Alice Assis Ormeni Pereira",
+      "course": "1760791 - Mecatrônica Industrial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Erick Felipe Dos Santos Candido",
+      "course": "90011/104 - Ciências Exatas (Licenciatura) - Noturno - Instituto de Física de São Carlos",
+      "ies": "USP"
+    },
+    {
+      "name": "Gabriel Henrique Da Silva",
+      "course": "2841163 - Gestão de Negócios e Inovação - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Guilherme Candido Santoro",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Rebeca Pietra Soares Da Silva",
+      "course": "90011/104 - Ciências Exatas (Licenciatura) - Noturno - Instituto de Física de São Carlos",
+      "ies": "USP"
+    },
+    {
+      "name": "Yanndhra Da Silva Lopes",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Felipe Fernandes Quaglio",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Kevin Nunes De Souza",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "MARIA CONCEICAO RODRIGUES SILVA MAGON PROFESSORA": [
+    {
+      "name": "Bruno Pereira Felix",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Clarisse Da Silva Monteiro",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Gardenia Santana Dos Santos",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Vitor Hugo Lemes",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Bruno Pereira Felix",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Clarisse Da Silva Monteiro",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "ANNA PASSAMONTI BALARDIN": [
+    {
+      "name": "Bruno Otavio Goncalves",
+      "course": "2840483 - Análise e Desenvolvimento de Sistemas - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Caio Pierre Silva Pina",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Laura Bento Fagundes",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Gabriel De Souza Santa Rosa",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Maria Eduarda Rodrigues Da Silva",
+      "course": "1760643 - Gestão Empresarial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Felipe Santos Dias Ramalho",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "FERRUCIO CHIARATTI": [
+    {
+      "name": "Gabriel Guilherme De Souza",
+      "course": "1760983 - Mecânica - Processos de Soldagem - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Tiago Pereira Dos Santos",
+      "course": "1630993 - Projetos Mecânicos - Noite - Fatec Mogi Mirim - \"Arthur de Azevedo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Fernanda Dos Santos Souza",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Juliano Silva Ferreira",
+      "course": "1760693 - Manutenção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "EDITH SILVEIRA DALMASO PROFESSORA": [
+    {
+      "name": "Ana Clara Almeida Barbosa",
+      "course": "2840483 - Análise e Desenvolvimento de Sistemas - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Maria Clara Soares Marques",
+      "course": "2860773 - Gestão da Produção Industrial - Noite - Fatec Itatiba - \"Maria Eunice Amadeo de Almeida\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Evilyn Vitoria Ferreira Dos Santos",
+      "course": "1760641 - Gestão Empresarial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Thiago Alexandre Garcia",
+      "course": "1760791 - Mecatrônica Industrial - Manhã - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "David Silva Nascimento",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "NICIA FABIOLA ZANUTO GIRALDI PROFESSORA": [
+    {
+      "name": "Gabriel De Abreu Lima",
+      "course": "2840483 - Análise e Desenvolvimento de Sistemas - Noite - Fatec Ribeirão Preto",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Giovanna Schiavinato Cardoso",
+      "course": "1760773 - Gestão da Produção Industrial - Noite - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "MARIA ELYDE MONACO DOS SANTOS PROFESSORA": [
+    {
+      "name": "Marisa Yumi Shigueoka",
+      "course": "1730711 - Biocombustíveis - Manhã - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Evelyn Garcia De Souza",
+      "course": "1730647 - Gestão Empresarial - EaD - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Caua Sampaio",
+      "course": "3121393 - Desenvolvimento de Software Multiplataforma - Noite - Fatec Olímpia",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Diogo Vital Fagundes",
+      "course": "1730873 - Gestão Ambiental - Noite - Fatec Jaboticabal - \"Nilo de Stéfani\"",
+      "ies": "FATEC"
+    },
+    {
+      "name": "Gabrieli Yasminni Gomes Silva",
+      "course": "1760647 - Gestão Empresarial - EaD - Fatec Sertãozinho - \"Deputado Waldyr Alceu Trigo\"",
+      "ies": "FATEC"
+    }
+  ],
+  "ODULFO DE OLIVEIRA GUIMARAES": [
+    {
+      "name": "Camily Vitoria Ferreira Da Silva",
+      "course": "0220702 - Agronegócio - Tarde - Fatec Taquaritinga - \"Marlene Maria Miletta Servidoni\"",
+      "ies": "FATEC"
+    }
+  ]
+}
