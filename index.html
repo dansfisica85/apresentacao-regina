@@ -288,10 +288,11 @@
     <!-- Student Details Modal -->
     <div id="detailsModal"
         class="fixed inset-0 z-[100] hidden bg-slate-900/60 backdrop-blur-md flex items-center justify-center p-4 transition-opacity duration-300 opacity-0 pointer-events-none">
-        <div class="bg-white rounded-2xl shadow-2xl w-full max-w-2xl transform scale-95 transition-all duration-300"
+        <div class="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] flex flex-col transform scale-95 transition-all duration-300"
             id="detailsModalContent" onclick="event.stopPropagation()">
 
-            <div class="p-6 border-b border-gray-100 flex justify-between items-center bg-indigo-50/30 rounded-t-2xl">
+            <div
+                class="p-6 border-b border-gray-100 flex justify-between items-center bg-indigo-50/30 rounded-t-2xl flex-shrink-0">
                 <div>
                     <h3 class="text-xl font-bold text-gray-900" id="detailsSchoolName">Nome da Escola</h3>
                     <p class="text-sm text-indigo-600 font-medium mt-1">
@@ -304,15 +305,15 @@
                 </button>
             </div>
 
-            <div class="p-6">
+            <div class="p-6 overflow-y-auto flex-1 min-h-0">
                 <div class="relative">
-                    <div id="studentsList" class="student-list-container space-y-3">
+                    <div id="studentsList" class="space-y-3">
                         <!-- Student Cards -->
                     </div>
                 </div>
             </div>
 
-            <div class="p-4 border-t border-gray-100 bg-gray-50 rounded-b-2xl flex justify-end">
+            <div class="p-4 border-t border-gray-100 bg-gray-50 rounded-b-2xl flex justify-end flex-shrink-0">
                 <button onclick="closeDetailsModal()"
                     class="px-4 py-2 bg-white border border-gray-200 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition-colors shadow-sm">
                     Fechar
