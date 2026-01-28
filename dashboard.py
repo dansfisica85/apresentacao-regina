@@ -20,7 +20,7 @@ data = [
     {"rank": 5, "escola": "BASILIO RODRIGUES DA SILVA", "municipio": "Pontal", "alunos": 97, "c1": 15, "c2": 5, "total_aprov": 20},
     {"rank": 6, "escola": "NESTOR GOMES DE ARAUJO", "municipio": "Dumont", "alunos": 73, "c1": 8, "c2": 4, "total_aprov": 12},
     {"rank": 7, "escola": "MARIA CONCEICAO R. S. MAGON", "municipio": "Sertãozinho", "alunos": 38, "c1": 4, "c2": 2, "total_aprov": 6},
-    {"rank": 8, "escola": "WINSTON CHURCHILL", "municipio": "Sertãozinho", "alunos": 140, "c1": 12, "c2": 7, "total_aprov": 19},
+    {"rank": 8, "escola": "WINSTON CHURCHILL", "municipio": "Sertãozinho", "alunos": 107, "c1": 12, "c2": 7, "total_aprov": 19},
     {"rank": 9, "escola": "MARIA FALCONI DE FELICIO", "municipio": "Pitangueiras", "alunos": 27, "c1": 2, "c2": 1, "total_aprov": 3},
     {"rank": 10, "escola": "DOMINGOS PARO", "municipio": "Pitangueiras", "alunos": 33, "c1": 2, "c2": 1, "total_aprov": 3},
     {"rank": 11, "escola": "MARIA ELYDE M. DOS SANTOS", "municipio": "Terra Roxa", "alunos": 63, "c1": 3, "c2": 2, "total_aprov": 5},
@@ -43,6 +43,10 @@ data = [
 # Criar DataFrame
 df = pd.DataFrame(data)
 df['taxa'] = (df['total_aprov'] / df['alunos']) * 100
+
+# Recalcular Rank baseado na nova taxa (Do maior para o menor)
+df['rank'] = df['taxa'].rank(ascending=False, method='min').astype(int)
+df = df.sort_values('rank')
 
 # Funções Auxiliares
 def get_badge_color(taxa):
