@@ -24,7 +24,7 @@ data = [
     {"rank": 9, "escola": "MARIA FALCONI DE FELICIO", "municipio": "Pitangueiras", "alunos": 27, "c1": 2, "c2": 1, "total_aprov": 3},
     {"rank": 10, "escola": "DOMINGOS PARO", "municipio": "Pitangueiras", "alunos": 33, "c1": 2, "c2": 1, "total_aprov": 3},
     {"rank": 11, "escola": "MARIA ELYDE M. DOS SANTOS", "municipio": "Terra Roxa", "alunos": 63, "c1": 3, "c2": 2, "total_aprov": 5},
-    {"rank": 12, "escola": "MAURICIO MONTECCHI", "municipio": "Pitangueiras", "alunos": 123, "c1": 4, "c2": 2, "total_aprov": 6},
+    {"rank": 12, "escola": "MAURICIO MONTECCHI", "municipio": "Pitangueiras", "alunos": 123, "c1": 4, "c2": 3, "total_aprov": 6},
     {"rank": 13, "escola": "ORMINDA GUIMARAES COTRIM", "municipio": "Pitangueiras", "alunos": 126, "c1": 4, "c2": 2, "total_aprov": 6},
     {"rank": 14, "escola": "JOSE LUIZ DE SIQUEIRA", "municipio": "Barrinha", "alunos": 175, "c1": 5, "c2": 3, "total_aprov": 8},
     {"rank": 15, "escola": "BRUNO PIERONI", "municipio": "Sertãozinho", "alunos": 188, "c1": 5, "c2": 3, "total_aprov": 8},
