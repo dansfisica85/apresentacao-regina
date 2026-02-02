@@ -11,9 +11,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- DADOS (Consolidado Oficial: 2191 Alunos / 227 Aprovados - 3 Chamadas) ---
+# --- DADOS (Consolidado Oficial: 2191 Alunos / 226 Aprovados - 3 Chamadas) ---
 # Atualizado: Winston Churchill com 107 alunos ativos conforme solicitado
-# Dados consolidados das 1ª, 2ª e 3ª chamadas
+# Dados consolidados das 1ª, 2ª e 3ª chamadas (121 + 61 + 44 = 226)
 data = [
     {"rank": 1, "escola": "DOLORES BELEM NOVAES", "municipio": "Pontal", "alunos": 26, "c1": 9, "c2": 2, "c3": 1, "total_aprov": 12},
     {"rank": 2, "escola": "YOLANDA LUIZ SICHIERI", "municipio": "Pontal", "alunos": 148, "c1": 27, "c2": 13, "c3": 12, "total_aprov": 52},
