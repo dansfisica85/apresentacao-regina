@@ -11,7 +11,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- DADOS (Consolidado Oficial: 2191 Alunos / 226 Aprovados - 3 Chamadas) ---
+# --- DADOS (Consolidado Oficial: 2178 Alunos / 226 Aprovados - 3 Chamadas) ---
 # Atualizado: Winston Churchill com 107 alunos ativos conforme solicitado
 # Dados consolidados das 1ª, 2ª e 3ª chamadas (121 + 61 + 44 = 226)
 data = [
