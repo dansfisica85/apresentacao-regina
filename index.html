@@ -106,10 +106,10 @@
                     <span class="text-xs font-bold text-gray-500 bg-gray-100 px-2 py-1 rounded-full">Base
                         Ajustada</span>
                 </div>
-                <!-- Updated per user request: 8.31% -->
-                <h3 class="text-3xl font-bold text-indigo-900 mb-1">8,31%</h3>
+                <!-- Updated: 227 aprovados / 2191 alunos = 10.36% -->
+                <h3 class="text-3xl font-bold text-indigo-900 mb-1">10,36%</h3>
                 <p class="text-sm text-gray-500 font-medium">Taxa Geral de Aprovação</p>
-                <div class="mt-2 text-xs text-gray-400">Total: 182 Aprovados</div>
+                <div class="mt-2 text-xs text-gray-400">Total: 227 Aprovados</div>
             </div>
 
             <!-- Call 1 -->
@@ -121,7 +121,7 @@
                 </div>
                 <h3 class="text-3xl font-bold text-gray-900 mb-1">121</h3>
                 <p class="text-sm text-gray-500 font-medium">Aprovações 1ª Chamada</p>
-                <div class="mt-2 text-xs text-amber-600 font-medium">66.5% do total</div>
+                <div class="mt-2 text-xs text-amber-600 font-medium">53.3% do total</div>
             </div>
 
             <!-- Call 2 -->
@@ -133,7 +133,7 @@
                 </div>
                 <h3 class="text-3xl font-bold text-gray-900 mb-1">61</h3>
                 <p class="text-sm text-gray-500 font-medium">Aprovações 2ª Chamada</p>
-                <div class="mt-2 text-xs text-emerald-600 font-medium">33.5% do total</div>
+                <div class="mt-2 text-xs text-emerald-600 font-medium">26.9% do total</div>
             </div>
         </div>
 
@@ -148,9 +148,9 @@
                     </div>
                     <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">Excelente</span>
                 </div>
-                <h3 class="text-3xl font-bold text-emerald-700 mb-1">5</h3>
+                <h3 class="text-3xl font-bold text-emerald-700 mb-1">7</h3>
                 <p class="text-sm text-gray-500 font-medium">Escolas ≥20% de aprovação</p>
-                <div class="mt-2 text-xs text-gray-400">20% das escolas analisadas</div>
+                <div class="mt-2 text-xs text-gray-400">28% das escolas analisadas</div>
             </div>
 
             <!-- Maior Taxa Individual -->
@@ -161,9 +161,9 @@
                     </div>
                     <span class="text-xs font-bold text-yellow-700 bg-yellow-50 px-2 py-1 rounded-full">Top 1</span>
                 </div>
-                <h3 class="text-3xl font-bold text-gray-900 mb-1">38,46%</h3>
+                <h3 class="text-3xl font-bold text-gray-900 mb-1">46,15%</h3>
                 <p class="text-sm text-gray-500 font-medium">Maior Taxa (Dolores Belem)</p>
-                <div class="mt-2 text-xs text-gray-400">10 aprovados em 26 alunos</div>
+                <div class="mt-2 text-xs text-gray-400">12 aprovados em 26 alunos</div>
             </div>
 
             <!-- Total Municípios -->
@@ -186,9 +186,9 @@
                     </div>
                     <span class="text-xs font-bold text-purple-600 bg-purple-50 px-2 py-1 rounded-full">Destaque</span>
                 </div>
-                <h3 class="text-3xl font-bold text-purple-700 mb-1">17,76%</h3>
+                <h3 class="text-3xl font-bold text-purple-700 mb-1">25,23%</h3>
                 <p class="text-sm text-gray-500 font-medium">Winston Churchill</p>
-                <div class="mt-2 text-xs text-gray-400">19 aprovados / 107 alunos ativos</div>
+                <div class="mt-2 text-xs text-gray-400">27 aprovados / 107 alunos ativos</div>
             </div>
         </div>
 
@@ -197,7 +197,7 @@
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
                 <div>
                     <h2 class="text-3xl font-bold text-gray-900">Ranking Detalhado - 25 Escolas</h2>
-                    <p class="text-gray-500 mt-1">Dados oficiais consolidados (1ª + 2ª Chamada) - Recálculo Rigoroso</p>
+                    <p class="text-gray-500 mt-1">Dados oficiais consolidados (1ª + 2ª + 3ª Chamada) - 227 Aprovados</p>
                 </div>
                 <div class="relative">
                     <i class="ph ph-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
@@ -1362,34 +1362,39 @@
             ]
         };
 
-        // --- SCHOOLS LIST (Atualizado com alunos ativos - Winston Churchill = 107) ---
+        // --- SCHOOLS LIST (Consolidado 3 Chamadas - 227 Aprovados - Winston Churchill = 107 alunos ativos) ---
+        // Dados recalculados a partir dos arquivos CSV de chamadas (1ª + 2ª + 3ª)
         const schools = [
-            { rank: 1, name: "DOLORES BELEM NOVAES", city: "Pontal", students: 26, approved: 10, c1: 8, c2: 2, rate: 38.46 },
-            { rank: 2, name: "DOLORES MARTINS DE CASTRO", city: "Pontal", students: 9, approved: 3, c1: 2, c2: 1, rate: 33.33 },
-            { rank: 3, name: "YOLANDA LUIZ SICHIERI", city: "Pontal", students: 148, approved: 36, c1: 25, c2: 11, rate: 24.32 },
-            { rank: 4, name: "ANTONIO FURLAN JUNIOR", city: "Sertãozinho", students: 34, approved: 8, c1: 6, c2: 2, rate: 23.53 },
-            { rank: 5, name: "BASILIO RODRIGUES DA SILVA", city: "Pontal", students: 97, approved: 20, c1: 15, c2: 5, rate: 20.62 },
-            { rank: 6, name: "WINSTON CHURCHILL", city: "Sertãozinho", students: 107, approved: 19, c1: 12, c2: 7, rate: 17.76 },
-            { rank: 7, name: "NESTOR GOMES DE ARAUJO", city: "Dumont", students: 73, approved: 12, c1: 8, c2: 4, rate: 16.44 },
-            { rank: 8, name: "MARIA CONCEICAO R. S. MAGON", city: "Sertãozinho", students: 38, approved: 6, c1: 4, c2: 2, rate: 15.79 },
-            { rank: 9, name: "MARIA FALCONI DE FELICIO", city: "Pitangueiras", students: 27, approved: 3, c1: 2, c2: 1, rate: 11.11 },
-            { rank: 10, name: "DOMINGOS PARO", city: "Pitangueiras", students: 33, approved: 3, c1: 2, c2: 1, rate: 9.09 },
-            { rank: 11, name: "MARIA ELYDE M. DOS SANTOS", city: "Terra Roxa", students: 63, approved: 5, c1: 2, c2: 3, rate: 7.94 },
-            { rank: 12, name: "MAURICIO MONTECCHI", city: "Pitangueiras", students: 123, approved: 7, c1: 3, c2: 4, rate: 5.69 },
-            { rank: 13, name: "ORMINDA GUIMARAES COTRIM", city: "Pitangueiras", students: 126, approved: 6, c1: 3, c2: 3, rate: 4.76 },
-            { rank: 14, name: "JOSE LUIZ DE SIQUEIRA", city: "Barrinha", students: 175, approved: 8, c1: 5, c2: 3, rate: 4.57 },
-            { rank: 15, name: "BRUNO PIERONI", city: "Sertãozinho", students: 188, approved: 10, c1: 6, c2: 4, rate: 5.32 },
-            { rank: 16, name: "LUIZ MARCARI", city: "Barrinha", students: 134, approved: 5, c1: 4, c2: 1, rate: 3.73 },
-            { rank: 17, name: "NICIA FABIOLA ZANUTO GIRALDI", city: "Sertãozinho", students: 57, approved: 2, c1: 1, c2: 1, rate: 3.51 },
-            { rank: 18, name: "FERRUCIO CHIARATTI", city: "Sertãozinho", students: 123, approved: 4, c1: 2, c2: 2, rate: 3.25 },
-            { rank: 19, name: "EDITH SILVEIRA DALMASO", city: "Sertãozinho", students: 156, approved: 5, c1: 2, c2: 3, rate: 3.21 },
-            { rank: 20, name: "ISAIAS JOSE FERREIRA", city: "Sertãozinho", students: 65, approved: 2, c1: 1, c2: 1, rate: 3.08 },
-            { rank: 21, name: "ANNA PASSAMONTI BALARDIN", city: "Sertãozinho", students: 201, approved: 6, c1: 3, c2: 3, rate: 2.99 },
-            { rank: 22, name: "MARIO LINS", city: "Jardinópolis", students: 35, approved: 1, c1: 1, c2: 0, rate: 2.86 },
-            { rank: 23, name: "PLINIO BERARDO", city: "Jardinópolis", students: 227, approved: 4, c1: 3, c2: 1, rate: 1.76 },
-            { rank: 24, name: "ODULFO DE OLIVEIRA GUIMARAES", city: "Viradouro", students: 91, approved: 1, c1: 1, c2: 0, rate: 1.10 },
-            { rank: 25, name: "ADELIA FRASCINO", city: "Pontal", students: 2, approved: 0, c1: 0, c2: 0, rate: 0.00 }
+            { rank: 1, name: "DOLORES BELEM NOVAES", city: "Pontal", students: 26, approved: 12, c1: 9, c2: 2, c3: 1, rate: 46.15 },
+            { rank: 2, name: "YOLANDA LUIZ SICHIERI", city: "Pontal", students: 148, approved: 52, c1: 27, c2: 13, c3: 12, rate: 35.14 },
+            { rank: 3, name: "DOLORES MARTINS DE CASTRO", city: "Pontal", students: 9, approved: 3, c1: 2, c2: 1, c3: 0, rate: 33.33 },
+            { rank: 4, name: "BASILIO RODRIGUES DA SILVA", city: "Pontal", students: 97, approved: 26, c1: 14, c2: 8, c3: 4, rate: 26.80 },
+            { rank: 5, name: "WINSTON CHURCHILL", city: "Sertãozinho", students: 107, approved: 27, c1: 14, c2: 7, c3: 6, rate: 25.23 },
+            { rank: 6, name: "ANTONIO FURLAN JUNIOR", city: "Sertãozinho", students: 34, approved: 8, c1: 6, c2: 2, c3: 0, rate: 23.53 },
+            { rank: 7, name: "NESTOR GOMES DE ARAUJO", city: "Dumont", students: 73, approved: 15, c1: 10, c2: 5, c3: 0, rate: 20.55 },
+            { rank: 8, name: "MARIA CONCEICAO R. S. MAGON", city: "Sertãozinho", students: 38, approved: 6, c1: 4, c2: 2, c3: 0, rate: 15.79 },
+            { rank: 9, name: "MARIA FALCONI DE FELICIO", city: "Pitangueiras", students: 27, approved: 3, c1: 3, c2: 0, c3: 0, rate: 11.11 },
+            { rank: 10, name: "MARIA ELYDE M. DOS SANTOS", city: "Terra Roxa", students: 63, approved: 6, c1: 2, c2: 3, c3: 1, rate: 9.52 },
+            { rank: 11, name: "DOMINGOS PARO", city: "Pitangueiras", students: 33, approved: 3, c1: 3, c2: 0, c3: 0, rate: 9.09 },
+            { rank: 12, name: "MAURICIO MONTECCHI", city: "Pitangueiras", students: 123, approved: 10, c1: 3, c2: 4, c3: 3, rate: 8.13 },
+            { rank: 13, name: "ORMINDA GUIMARAES COTRIM", city: "Pitangueiras", students: 126, approved: 9, c1: 3, c2: 4, c3: 2, rate: 7.14 },
+            { rank: 14, name: "LUIZ MARCARI", city: "Barrinha", students: 134, approved: 8, c1: 4, c2: 1, c3: 3, rate: 5.97 },
+            { rank: 15, name: "BRUNO PIERONI", city: "Sertãozinho", students: 188, approved: 11, c1: 6, c2: 2, c3: 3, rate: 5.85 },
+            { rank: 16, name: "JOSE LUIZ DE SIQUEIRA", city: "Barrinha", students: 175, approved: 10, c1: 5, c2: 2, c3: 3, rate: 5.71 },
+            { rank: 17, name: "MARIO LINS", city: "Jardinópolis", students: 35, approved: 2, c1: 1, c2: 0, c3: 1, rate: 5.71 },
+            { rank: 18, name: "EDITH SILVEIRA DALMASO", city: "Sertãozinho", students: 156, approved: 8, c1: 2, c2: 3, c3: 3, rate: 5.13 },
+            { rank: 19, name: "NICIA FABIOLA ZANUTO GIRALDI", city: "Sertãozinho", students: 57, approved: 2, c1: 2, c2: 0, c3: 0, rate: 3.51 },
+            { rank: 20, name: "FERRUCIO CHIARATTI", city: "Sertãozinho", students: 123, approved: 4, c1: 2, c2: 2, c3: 0, rate: 3.25 },
+            { rank: 21, name: "ISAIAS JOSE FERREIRA", city: "Sertãozinho", students: 65, approved: 2, c1: 1, c2: 1, c3: 0, rate: 3.08 },
+            { rank: 22, name: "ANNA PASSAMONTI BALARDIN", city: "Sertãozinho", students: 201, approved: 6, c1: 3, c2: 3, c3: 0, rate: 2.99 },
+            { rank: 23, name: "PLINIO BERARDO", city: "Jardinópolis", students: 227, approved: 5, c1: 3, c2: 1, c3: 1, rate: 2.20 },
+            { rank: 24, name: "ODULFO DE OLIVEIRA GUIMARAES", city: "Viradouro", students: 91, approved: 2, c1: 0, c2: 1, c3: 1, rate: 2.20 },
+            { rank: 25, name: "ADELIA FRASCINO", city: "Pontal", students: 2, approved: 0, c1: 0, c2: 0, c3: 0, rate: 0.00 }
         ];
+        
+        // Recalcular ranks baseado na taxa (maior para menor)
+        schools.sort((a, b) => b.rate - a.rate);
+        schools.forEach((s, i) => s.rank = i + 1);
 
         let currentSort = { column: 'rank', asc: true };
 

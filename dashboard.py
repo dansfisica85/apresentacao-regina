@@ -11,34 +11,35 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- DADOS (Consolidado Oficial: 2191 Alunos / 182 Aprovados) ---
+# --- DADOS (Consolidado Oficial: 2191 Alunos / 227 Aprovados - 3 Chamadas) ---
 # Atualizado: Winston Churchill com 107 alunos ativos conforme solicitado
+# Dados consolidados das 1ª, 2ª e 3ª chamadas
 data = [
-    {"rank": 1, "escola": "DOLORES BELEM NOVAES", "municipio": "Pontal", "alunos": 26, "c1": 8, "c2": 2, "total_aprov": 10},
-    {"rank": 2, "escola": "DOLORES MARTINS DE CASTRO", "municipio": "Pontal", "alunos": 9, "c1": 2, "c2": 1, "total_aprov": 3},
-    {"rank": 3, "escola": "YOLANDA LUIZ SICHIERI", "municipio": "Pontal", "alunos": 148, "c1": 25, "c2": 11, "total_aprov": 36},
-    {"rank": 4, "escola": "ANTONIO FURLAN JUNIOR", "municipio": "Sertãozinho", "alunos": 34, "c1": 6, "c2": 2, "total_aprov": 8},
-    {"rank": 5, "escola": "BASILIO RODRIGUES DA SILVA", "municipio": "Pontal", "alunos": 97, "c1": 15, "c2": 5, "total_aprov": 20},
-    {"rank": 6, "escola": "WINSTON CHURCHILL", "municipio": "Sertãozinho", "alunos": 107, "c1": 12, "c2": 7, "total_aprov": 19},
-    {"rank": 7, "escola": "NESTOR GOMES DE ARAUJO", "municipio": "Dumont", "alunos": 73, "c1": 8, "c2": 4, "total_aprov": 12},
-    {"rank": 8, "escola": "MARIA CONCEICAO R. S. MAGON", "municipio": "Sertãozinho", "alunos": 38, "c1": 4, "c2": 2, "total_aprov": 6},
-    {"rank": 9, "escola": "MARIA FALCONI DE FELICIO", "municipio": "Pitangueiras", "alunos": 27, "c1": 2, "c2": 1, "total_aprov": 3},
-    {"rank": 10, "escola": "DOMINGOS PARO", "municipio": "Pitangueiras", "alunos": 33, "c1": 2, "c2": 1, "total_aprov": 3},
-    {"rank": 11, "escola": "MARIA ELYDE M. DOS SANTOS", "municipio": "Terra Roxa", "alunos": 63, "c1": 2, "c2": 3, "total_aprov": 5},
-    {"rank": 12, "escola": "MAURICIO MONTECCHI", "municipio": "Pitangueiras", "alunos": 123, "c1": 3, "c2": 4, "total_aprov": 7},
-    {"rank": 13, "escola": "ORMINDA GUIMARAES COTRIM", "municipio": "Pitangueiras", "alunos": 126, "c1": 3, "c2": 3, "total_aprov": 6},
-    {"rank": 14, "escola": "JOSE LUIZ DE SIQUEIRA", "municipio": "Barrinha", "alunos": 175, "c1": 5, "c2": 3, "total_aprov": 8},
-    {"rank": 15, "escola": "BRUNO PIERONI", "municipio": "Sertãozinho", "alunos": 188, "c1": 6, "c2": 4, "total_aprov": 10},
-    {"rank": 16, "escola": "LUIZ MARCARI", "municipio": "Barrinha", "alunos": 134, "c1": 4, "c2": 1, "total_aprov": 5},
-    {"rank": 17, "escola": "NICIA FABIOLA ZANUTO GIRALDI", "municipio": "Sertãozinho", "alunos": 57, "c1": 1, "c2": 1, "total_aprov": 2},
-    {"rank": 18, "escola": "FERRUCIO CHIARATTI", "municipio": "Sertãozinho", "alunos": 123, "c1": 2, "c2": 2, "total_aprov": 4},
-    {"rank": 19, "escola": "EDITH SILVEIRA DALMASO", "municipio": "Sertãozinho", "alunos": 156, "c1": 2, "c2": 3, "total_aprov": 5},
-    {"rank": 20, "escola": "ISAIAS JOSE FERREIRA", "municipio": "Sertãozinho", "alunos": 65, "c1": 1, "c2": 1, "total_aprov": 2},
-    {"rank": 21, "escola": "ANNA PASSAMONTI BALARDIN", "municipio": "Sertãozinho", "alunos": 201, "c1": 3, "c2": 3, "total_aprov": 6},
-    {"rank": 22, "escola": "MARIO LINS", "municipio": "Jardinópolis", "alunos": 35, "c1": 1, "c2": 0, "total_aprov": 1},
-    {"rank": 23, "escola": "PLINIO BERARDO", "municipio": "Jardinópolis", "alunos": 227, "c1": 3, "c2": 1, "total_aprov": 4},
-    {"rank": 24, "escola": "ODULFO DE OLIVEIRA GUIMARAES", "municipio": "Viradouro", "alunos": 91, "c1": 1, "c2": 0, "total_aprov": 1},
-    {"rank": 25, "escola": "ADELIA FRASCINO", "municipio": "Pontal", "alunos": 2, "c1": 0, "c2": 0, "total_aprov": 0}
+    {"rank": 1, "escola": "DOLORES BELEM NOVAES", "municipio": "Pontal", "alunos": 26, "c1": 9, "c2": 2, "c3": 1, "total_aprov": 12},
+    {"rank": 2, "escola": "YOLANDA LUIZ SICHIERI", "municipio": "Pontal", "alunos": 148, "c1": 27, "c2": 13, "c3": 12, "total_aprov": 52},
+    {"rank": 3, "escola": "DOLORES MARTINS DE CASTRO", "municipio": "Pontal", "alunos": 9, "c1": 2, "c2": 1, "c3": 0, "total_aprov": 3},
+    {"rank": 4, "escola": "BASILIO RODRIGUES DA SILVA", "municipio": "Pontal", "alunos": 97, "c1": 14, "c2": 8, "c3": 4, "total_aprov": 26},
+    {"rank": 5, "escola": "WINSTON CHURCHILL", "municipio": "Sertãozinho", "alunos": 107, "c1": 14, "c2": 7, "c3": 6, "total_aprov": 27},
+    {"rank": 6, "escola": "ANTONIO FURLAN JUNIOR", "municipio": "Sertãozinho", "alunos": 34, "c1": 6, "c2": 2, "c3": 0, "total_aprov": 8},
+    {"rank": 7, "escola": "NESTOR GOMES DE ARAUJO", "municipio": "Dumont", "alunos": 73, "c1": 10, "c2": 5, "c3": 0, "total_aprov": 15},
+    {"rank": 8, "escola": "MARIA CONCEICAO R. S. MAGON", "municipio": "Sertãozinho", "alunos": 38, "c1": 4, "c2": 2, "c3": 0, "total_aprov": 6},
+    {"rank": 9, "escola": "MARIA FALCONI DE FELICIO", "municipio": "Pitangueiras", "alunos": 27, "c1": 3, "c2": 0, "c3": 0, "total_aprov": 3},
+    {"rank": 10, "escola": "MARIA ELYDE M. DOS SANTOS", "municipio": "Terra Roxa", "alunos": 63, "c1": 2, "c2": 3, "c3": 1, "total_aprov": 6},
+    {"rank": 11, "escola": "DOMINGOS PARO", "municipio": "Pitangueiras", "alunos": 33, "c1": 3, "c2": 0, "c3": 0, "total_aprov": 3},
+    {"rank": 12, "escola": "MAURICIO MONTECCHI", "municipio": "Pitangueiras", "alunos": 123, "c1": 3, "c2": 4, "c3": 3, "total_aprov": 10},
+    {"rank": 13, "escola": "ORMINDA GUIMARAES COTRIM", "municipio": "Pitangueiras", "alunos": 126, "c1": 3, "c2": 4, "c3": 2, "total_aprov": 9},
+    {"rank": 14, "escola": "LUIZ MARCARI", "municipio": "Barrinha", "alunos": 134, "c1": 4, "c2": 1, "c3": 3, "total_aprov": 8},
+    {"rank": 15, "escola": "BRUNO PIERONI", "municipio": "Sertãozinho", "alunos": 188, "c1": 6, "c2": 2, "c3": 3, "total_aprov": 11},
+    {"rank": 16, "escola": "JOSE LUIZ DE SIQUEIRA", "municipio": "Barrinha", "alunos": 175, "c1": 5, "c2": 2, "c3": 3, "total_aprov": 10},
+    {"rank": 17, "escola": "MARIO LINS", "municipio": "Jardinópolis", "alunos": 35, "c1": 1, "c2": 0, "c3": 1, "total_aprov": 2},
+    {"rank": 18, "escola": "EDITH SILVEIRA DALMASO", "municipio": "Sertãozinho", "alunos": 156, "c1": 2, "c2": 3, "c3": 3, "total_aprov": 8},
+    {"rank": 19, "escola": "NICIA FABIOLA ZANUTO GIRALDI", "municipio": "Sertãozinho", "alunos": 57, "c1": 2, "c2": 0, "c3": 0, "total_aprov": 2},
+    {"rank": 20, "escola": "FERRUCIO CHIARATTI", "municipio": "Sertãozinho", "alunos": 123, "c1": 2, "c2": 2, "c3": 0, "total_aprov": 4},
+    {"rank": 21, "escola": "ISAIAS JOSE FERREIRA", "municipio": "Sertãozinho", "alunos": 65, "c1": 1, "c2": 1, "c3": 0, "total_aprov": 2},
+    {"rank": 22, "escola": "ANNA PASSAMONTI BALARDIN", "municipio": "Sertãozinho", "alunos": 201, "c1": 3, "c2": 3, "c3": 0, "total_aprov": 6},
+    {"rank": 23, "escola": "PLINIO BERARDO", "municipio": "Jardinópolis", "alunos": 227, "c1": 3, "c2": 1, "c3": 1, "total_aprov": 5},
+    {"rank": 24, "escola": "ODULFO DE OLIVEIRA GUIMARAES", "municipio": "Viradouro", "alunos": 91, "c1": 0, "c2": 1, "c3": 1, "total_aprov": 2},
+    {"rank": 25, "escola": "ADELIA FRASCINO", "municipio": "Pontal", "alunos": 2, "c1": 0, "c2": 0, "c3": 0, "total_aprov": 0}
 ]
 
 # Criar DataFrame
