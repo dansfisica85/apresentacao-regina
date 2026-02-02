@@ -78,10 +78,10 @@
         <div class="mb-8 flex items-center justify-between">
             <h3 class="text-2xl font-bold text-gray-900">Indicadores Chave <span
                     class="text-xs font-normal text-gray-400 ml-2">(Recálculo Rigoroso)</span></h3>
-            <span class="text-sm text-gray-500">Atualizado: Janeiro 2026</span>
+            <span class="text-sm text-gray-500">Atualizado: Fevereiro 2026</span>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 animate-fade-in-up"
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 animate-fade-in-up"
             style="animation-delay: 100ms;">
             <!-- Total Students -->
             <div class="kpi-card group hover:-translate-y-1 transition-all duration-300">
@@ -134,6 +134,61 @@
                 <h3 class="text-3xl font-bold text-gray-900 mb-1">61</h3>
                 <p class="text-sm text-gray-500 font-medium">Aprovações 2ª Chamada</p>
                 <div class="mt-2 text-xs text-emerald-600 font-medium">33.5% do total</div>
+            </div>
+        </div>
+
+        <!-- Segunda linha de KPIs - Novos Indicadores -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 animate-fade-in-up"
+            style="animation-delay: 200ms;">
+            <!-- Escolas com Taxa >= 20% -->
+            <div class="kpi-card group hover:-translate-y-1 transition-all duration-300 border-l-4 border-emerald-500">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="p-3 bg-emerald-50 rounded-lg text-emerald-600">
+                        <i class="ph ph-trophy text-xl"></i>
+                    </div>
+                    <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">Excelente</span>
+                </div>
+                <h3 class="text-3xl font-bold text-emerald-700 mb-1">5</h3>
+                <p class="text-sm text-gray-500 font-medium">Escolas ≥20% de aprovação</p>
+                <div class="mt-2 text-xs text-gray-400">20% das escolas analisadas</div>
+            </div>
+
+            <!-- Maior Taxa Individual -->
+            <div class="kpi-card group hover:-translate-y-1 transition-all duration-300">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="p-3 bg-yellow-50 rounded-lg text-yellow-600">
+                        <i class="ph ph-star text-xl"></i>
+                    </div>
+                    <span class="text-xs font-bold text-yellow-700 bg-yellow-50 px-2 py-1 rounded-full">Top 1</span>
+                </div>
+                <h3 class="text-3xl font-bold text-gray-900 mb-1">38,46%</h3>
+                <p class="text-sm text-gray-500 font-medium">Maior Taxa (Dolores Belem)</p>
+                <div class="mt-2 text-xs text-gray-400">10 aprovados em 26 alunos</div>
+            </div>
+
+            <!-- Total Municípios -->
+            <div class="kpi-card group hover:-translate-y-1 transition-all duration-300">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="p-3 bg-blue-50 rounded-lg text-blue-600">
+                        <i class="ph ph-map-pin text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="text-3xl font-bold text-gray-900 mb-1">8</h3>
+                <p class="text-sm text-gray-500 font-medium">Municípios Abrangidos</p>
+                <div class="mt-2 text-xs text-gray-400">Diretoria de Sertãozinho</div>
+            </div>
+
+            <!-- Winston Churchill Destaque -->
+            <div class="kpi-card group hover:-translate-y-1 transition-all duration-300 border-l-4 border-purple-500">
+                <div class="flex justify-between items-start mb-4">
+                    <div class="p-3 bg-purple-50 rounded-lg text-purple-600">
+                        <i class="ph ph-buildings text-xl"></i>
+                    </div>
+                    <span class="text-xs font-bold text-purple-600 bg-purple-50 px-2 py-1 rounded-full">Destaque</span>
+                </div>
+                <h3 class="text-3xl font-bold text-purple-700 mb-1">17,76%</h3>
+                <p class="text-sm text-gray-500 font-medium">Winston Churchill</p>
+                <div class="mt-2 text-xs text-gray-400">19 aprovados / 107 alunos ativos</div>
             </div>
         </div>
 
@@ -190,74 +245,85 @@
             </div>
         </div>
 
-        <!-- VISUAL ANALYSIS SECTION (REPLACED CHARTS WITH SLIDES) -->
+        <!-- VISUAL ANALYSIS SECTION (GRÁFICOS INTERATIVOS) -->
         <div class="space-y-16 mb-20" id="analise-visual">
 
             <div class="flex items-center gap-4 mb-4">
                 <div class="h-px bg-gray-200 flex-grow"></div>
-                <h2 class="text-2xl font-bold text-gray-400 uppercase tracking-widest">Apresentação Visual e Gráfica
+                <h2 class="text-2xl font-bold text-gray-400 uppercase tracking-widest">Análise Visual Interativa
                 </h2>
                 <div class="h-px bg-gray-200 flex-grow"></div>
             </div>
 
-            <!-- Slide 1: Ranking Completo (Replacing Previous Chart) -->
+            <!-- Gráfico 1: Ranking por Taxa de Aprovação -->
             <div class="glass-panel p-6 rounded-2xl animate-fade-in-up">
                 <h3 class="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2 border-b border-gray-100 pb-4">
                     <span
                         class="bg-indigo-100 text-indigo-700 w-8 h-8 rounded-full flex items-center justify-center text-sm">1</span>
-                    Ranking Completo das Escolas
+                    Ranking por Taxa de Aprovação (%)
                 </h3>
-                <div class="relative group rounded-xl overflow-hidden shadow-lg border border-gray-200">
-                    <img src="1.png" alt="Ranking Completo"
-                        class="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-[1.01] cursor-zoom-in"
-                        onclick="openModal(this.src)">
-                    <div
-                        class="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors pointer-events-none">
-                    </div>
+                <div class="relative" style="height: 600px;">
+                    <canvas id="chartRanking"></canvas>
                 </div>
             </div>
 
-            <!-- Slides 2 & 3: Distribuição e Eficiência -->
+            <!-- Gráficos 2 & 3: Distribuição e Eficiência -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div class="glass-panel p-6 rounded-2xl animate-fade-in-left">
                     <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
                         <span
                             class="bg-indigo-100 text-indigo-700 w-6 h-6 rounded-full flex items-center justify-center text-xs">2</span>
-                        Distribuição de Volume
+                        Distribuição por IES (Instituição)
                     </h3>
-                    <img src="2.png" alt="Distribuição"
-                        class="w-full h-auto rounded-lg shadow-md hover:shadow-xl transition-shadow cursor-zoom-in"
-                        onclick="openModal(this.src)">
+                    <div class="relative" style="height: 350px;">
+                        <canvas id="chartIES"></canvas>
+                    </div>
                 </div>
 
                 <div class="glass-panel p-6 rounded-2xl animate-fade-in-right">
                     <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
                         <span
                             class="bg-indigo-100 text-indigo-700 w-6 h-6 rounded-full flex items-center justify-center text-xs">3</span>
-                        Eficiência x Tamanho
+                        Aprovados por Município
                     </h3>
-                    <img src="3.png" alt="Eficiência x Tamanho"
-                        class="w-full h-auto rounded-lg shadow-md hover:shadow-xl transition-shadow cursor-zoom-in"
-                        onclick="openModal(this.src)">
+                    <div class="relative" style="height: 350px;">
+                        <canvas id="chartMunicipio"></canvas>
+                    </div>
                 </div>
             </div>
 
-            <!-- Slides 4, 5 & 6 -->
+            <!-- Gráficos 4, 5 & 6 -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <div class="glass-panel p-5 rounded-xl">
-                    <h4 class="text-sm font-bold text-gray-600 uppercase mb-3 text-center">Composição</h4>
-                    <img src="4.png" class="w-full rounded-lg shadow hover:shadow-lg transition-all cursor-zoom-in"
-                        onclick="openModal(this.src)">
+                    <h4 class="text-sm font-bold text-gray-600 uppercase mb-3 text-center">Composição 1ª vs 2ª Chamada</h4>
+                    <div class="relative" style="height: 280px;">
+                        <canvas id="chartChamadas"></canvas>
+                    </div>
                 </div>
                 <div class="glass-panel p-5 rounded-xl">
-                    <h4 class="text-sm font-bold text-gray-600 uppercase mb-3 text-center">Dispersão</h4>
-                    <img src="5.png" class="w-full rounded-lg shadow hover:shadow-lg transition-all cursor-zoom-in"
-                        onclick="openModal(this.src)">
+                    <h4 class="text-sm font-bold text-gray-600 uppercase mb-3 text-center">Top 10 Escolas (Volume)</h4>
+                    <div class="relative" style="height: 280px;">
+                        <canvas id="chartTop10"></canvas>
+                    </div>
                 </div>
                 <div class="glass-panel p-5 rounded-xl">
-                    <h4 class="text-sm font-bold text-gray-600 uppercase mb-3 text-center">Resultados Finais</h4>
-                    <img src="6.png" class="w-full rounded-lg shadow hover:shadow-lg transition-all cursor-zoom-in"
-                        onclick="openModal(this.src)">
+                    <h4 class="text-sm font-bold text-gray-600 uppercase mb-3 text-center">Status das Escolas</h4>
+                    <div class="relative" style="height: 280px;">
+                        <canvas id="chartStatus"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Novo Painel: Eficiência x Tamanho (Scatter) -->
+            <div class="glass-panel p-6 rounded-2xl animate-fade-in-up">
+                <h3 class="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2 border-b border-gray-100 pb-4">
+                    <span
+                        class="bg-emerald-100 text-emerald-700 w-8 h-8 rounded-full flex items-center justify-center text-sm">📊</span>
+                    Eficiência vs Tamanho da Escola
+                </h3>
+                <p class="text-sm text-gray-500 mb-4">Análise de correlação entre o número de alunos e a taxa de aprovação. Bolhas maiores = mais aprovados.</p>
+                <div class="relative" style="height: 450px;">
+                    <canvas id="chartScatter"></canvas>
                 </div>
             </div>
 
@@ -1296,33 +1362,33 @@
             ]
         };
 
-        // --- SCHOOLS LIST ---
+        // --- SCHOOLS LIST (Atualizado com alunos ativos - Winston Churchill = 107) ---
         const schools = [
-            { rank: 1, name: "DOLORES BELEM NOVAES", students: 26, approved: 10, rate: 38.46 },
-            { rank: 2, name: "DOLORES MARTINS DE CASTRO", students: 9, approved: 3, rate: 33.33 },
-            { rank: 3, name: "YOLANDA LUIZ SICHIERI", students: 148, approved: 36, rate: 24.32 },
-            { rank: 4, name: "ANTONIO FURLAN JUNIOR", students: 34, approved: 8, rate: 23.53 },
-            { rank: 5, name: "BASILIO RODRIGUES DA SILVA", students: 97, approved: 20, rate: 20.62 },
-            { rank: 6, name: "WINSTON CHURCHILL", students: 107, approved: 19, rate: 17.76 },
-            { rank: 7, name: "NESTOR GOMES DE ARAUJO", students: 73, approved: 12, rate: 16.44 },
-            { rank: 8, name: "MARIA CONCEICAO R. S. MAGON", students: 38, approved: 6, rate: 15.79 },
-            { rank: 9, name: "MARIA FALCONI DE FELICIO", students: 27, approved: 3, rate: 11.11 },
-            { rank: 10, name: "DOMINGOS PARO", students: 33, approved: 3, rate: 9.09 },
-            { rank: 11, name: "MARIA ELYDE M. DOS SANTOS", students: 63, approved: 5, rate: 7.94 },
-            { rank: 12, name: "MAURICIO MONTECCHI", students: 123, approved: 6, rate: 4.88 },
-            { rank: 13, name: "ORMINDA GUIMARAES COTRIM", students: 126, approved: 6, rate: 4.76 },
-            { rank: 14, name: "JOSE LUIZ DE SIQUEIRA", students: 175, approved: 8, rate: 4.57 },
-            { rank: 15, name: "BRUNO PIERONI", students: 188, approved: 8, rate: 4.26 },
-            { rank: 16, name: "LUIZ MARCARI", students: 134, approved: 5, rate: 3.73 },
-            { rank: 17, name: "NICIA FABIOLA ZANUTO GIRALDI", students: 57, approved: 2, rate: 3.51 },
-            { rank: 18, name: "FERRUCIO CHIARATTI", students: 123, approved: 4, rate: 3.25 },
-            { rank: 19, name: "EDITH SILVEIRA DALMASO", students: 156, approved: 5, rate: 3.21 },
-            { rank: 20, name: "ISAIAS JOSE FERREIRA", students: 65, approved: 2, rate: 3.08 },
-            { rank: 21, name: "ANNA PASSAMONTI BALARDIN", students: 201, approved: 6, rate: 2.99 },
-            { rank: 22, name: "MARIO LINS", students: 35, approved: 1, rate: 2.86 },
-            { rank: 23, name: "PLINIO BERARDO", students: 227, approved: 4, rate: 1.76 },
-            { rank: 24, name: "ODULFO DE OLIVEIRA GUIMARAES", students: 91, approved: 1, rate: 1.10 },
-            { rank: 25, name: "ADELIA FRASCINO", students: 2, approved: 0, rate: 0.00 }
+            { rank: 1, name: "DOLORES BELEM NOVAES", city: "Pontal", students: 26, approved: 10, c1: 8, c2: 2, rate: 38.46 },
+            { rank: 2, name: "DOLORES MARTINS DE CASTRO", city: "Pontal", students: 9, approved: 3, c1: 2, c2: 1, rate: 33.33 },
+            { rank: 3, name: "YOLANDA LUIZ SICHIERI", city: "Pontal", students: 148, approved: 36, c1: 25, c2: 11, rate: 24.32 },
+            { rank: 4, name: "ANTONIO FURLAN JUNIOR", city: "Sertãozinho", students: 34, approved: 8, c1: 6, c2: 2, rate: 23.53 },
+            { rank: 5, name: "BASILIO RODRIGUES DA SILVA", city: "Pontal", students: 97, approved: 20, c1: 15, c2: 5, rate: 20.62 },
+            { rank: 6, name: "WINSTON CHURCHILL", city: "Sertãozinho", students: 107, approved: 19, c1: 12, c2: 7, rate: 17.76 },
+            { rank: 7, name: "NESTOR GOMES DE ARAUJO", city: "Dumont", students: 73, approved: 12, c1: 8, c2: 4, rate: 16.44 },
+            { rank: 8, name: "MARIA CONCEICAO R. S. MAGON", city: "Sertãozinho", students: 38, approved: 6, c1: 4, c2: 2, rate: 15.79 },
+            { rank: 9, name: "MARIA FALCONI DE FELICIO", city: "Pitangueiras", students: 27, approved: 3, c1: 2, c2: 1, rate: 11.11 },
+            { rank: 10, name: "DOMINGOS PARO", city: "Pitangueiras", students: 33, approved: 3, c1: 2, c2: 1, rate: 9.09 },
+            { rank: 11, name: "MARIA ELYDE M. DOS SANTOS", city: "Terra Roxa", students: 63, approved: 5, c1: 2, c2: 3, rate: 7.94 },
+            { rank: 12, name: "MAURICIO MONTECCHI", city: "Pitangueiras", students: 123, approved: 7, c1: 3, c2: 4, rate: 5.69 },
+            { rank: 13, name: "ORMINDA GUIMARAES COTRIM", city: "Pitangueiras", students: 126, approved: 6, c1: 3, c2: 3, rate: 4.76 },
+            { rank: 14, name: "JOSE LUIZ DE SIQUEIRA", city: "Barrinha", students: 175, approved: 8, c1: 5, c2: 3, rate: 4.57 },
+            { rank: 15, name: "BRUNO PIERONI", city: "Sertãozinho", students: 188, approved: 10, c1: 6, c2: 4, rate: 5.32 },
+            { rank: 16, name: "LUIZ MARCARI", city: "Barrinha", students: 134, approved: 5, c1: 4, c2: 1, rate: 3.73 },
+            { rank: 17, name: "NICIA FABIOLA ZANUTO GIRALDI", city: "Sertãozinho", students: 57, approved: 2, c1: 1, c2: 1, rate: 3.51 },
+            { rank: 18, name: "FERRUCIO CHIARATTI", city: "Sertãozinho", students: 123, approved: 4, c1: 2, c2: 2, rate: 3.25 },
+            { rank: 19, name: "EDITH SILVEIRA DALMASO", city: "Sertãozinho", students: 156, approved: 5, c1: 2, c2: 3, rate: 3.21 },
+            { rank: 20, name: "ISAIAS JOSE FERREIRA", city: "Sertãozinho", students: 65, approved: 2, c1: 1, c2: 1, rate: 3.08 },
+            { rank: 21, name: "ANNA PASSAMONTI BALARDIN", city: "Sertãozinho", students: 201, approved: 6, c1: 3, c2: 3, rate: 2.99 },
+            { rank: 22, name: "MARIO LINS", city: "Jardinópolis", students: 35, approved: 1, c1: 1, c2: 0, rate: 2.86 },
+            { rank: 23, name: "PLINIO BERARDO", city: "Jardinópolis", students: 227, approved: 4, c1: 3, c2: 1, rate: 1.76 },
+            { rank: 24, name: "ODULFO DE OLIVEIRA GUIMARAES", city: "Viradouro", students: 91, approved: 1, c1: 1, c2: 0, rate: 1.10 },
+            { rank: 25, name: "ADELIA FRASCINO", city: "Pontal", students: 2, approved: 0, c1: 0, c2: 0, rate: 0.00 }
         ];
 
         let currentSort = { column: 'rank', asc: true };
@@ -1540,7 +1606,337 @@
                     closeDetailsModal();
                 }
             });
+
+            // Inicializar Gráficos Interativos
+            initCharts();
         });
+
+        // --- GRÁFICOS INTERATIVOS ---
+        function initCharts() {
+            // Registrar plugin de datalabels
+            Chart.register(ChartDataLabels);
+            
+            // Dados para gráficos
+            const sortedByRate = [...schools].sort((a, b) => b.rate - a.rate);
+            const sortedByApproved = [...schools].sort((a, b) => b.approved - a.approved).slice(0, 10);
+            
+            // Cores gradient
+            const getBarColors = (rates) => rates.map(rate => {
+                if (rate >= 20) return 'rgba(16, 185, 129, 0.8)';
+                if (rate >= 10) return 'rgba(99, 102, 241, 0.8)';
+                if (rate >= 5) return 'rgba(245, 158, 11, 0.8)';
+                return 'rgba(239, 68, 68, 0.8)';
+            });
+
+            // 1. Gráfico de Ranking (Barras Horizontais)
+            new Chart(document.getElementById('chartRanking'), {
+                type: 'bar',
+                data: {
+                    labels: sortedByRate.map(s => s.name),
+                    datasets: [{
+                        label: 'Taxa de Aprovação (%)',
+                        data: sortedByRate.map(s => s.rate),
+                        backgroundColor: getBarColors(sortedByRate.map(s => s.rate)),
+                        borderColor: getBarColors(sortedByRate.map(s => s.rate)).map(c => c.replace('0.8', '1')),
+                        borderWidth: 1,
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        datalabels: {
+                            anchor: 'end',
+                            align: 'end',
+                            formatter: (value) => value.toFixed(2) + '%',
+                            color: '#374151',
+                            font: { weight: 'bold', size: 11 }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                afterLabel: (context) => {
+                                    const school = sortedByRate[context.dataIndex];
+                                    return `Aprovados: ${school.approved}/${school.students} alunos`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            max: 45,
+                            grid: { color: 'rgba(0,0,0,0.05)' },
+                            ticks: { callback: v => v + '%' }
+                        },
+                        y: {
+                            grid: { display: false },
+                            ticks: { font: { size: 11 } }
+                        }
+                    }
+                }
+            });
+
+            // 2. Gráfico de IES (Pizza/Doughnut)
+            const iesCount = { FATEC: 0, USP: 0, UNESP: 0, UNICAMP: 0 };
+            Object.values(schoolDetails).flat().forEach(s => {
+                if (iesCount.hasOwnProperty(s.ies)) iesCount[s.ies]++;
+                else if (s.ies !== 'N/A') iesCount[s.ies] = 1;
+            });
+            
+            new Chart(document.getElementById('chartIES'), {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(iesCount),
+                    datasets: [{
+                        data: Object.values(iesCount),
+                        backgroundColor: [
+                            'rgba(239, 68, 68, 0.8)',
+                            'rgba(245, 158, 11, 0.8)',
+                            'rgba(16, 185, 129, 0.8)',
+                            'rgba(99, 102, 241, 0.8)'
+                        ],
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom', labels: { padding: 20, font: { size: 12 } } },
+                        datalabels: {
+                            formatter: (value, ctx) => {
+                                const total = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                                const pct = ((value / total) * 100).toFixed(1);
+                                return value + '\n(' + pct + '%)';
+                            },
+                            color: '#fff',
+                            font: { weight: 'bold', size: 12 },
+                            textAlign: 'center'
+                        }
+                    }
+                }
+            });
+
+            // 3. Gráfico por Município (Barras)
+            const cityData = {};
+            schools.forEach(s => {
+                if (!cityData[s.city]) cityData[s.city] = { approved: 0, students: 0 };
+                cityData[s.city].approved += s.approved;
+                cityData[s.city].students += s.students;
+            });
+            const cities = Object.keys(cityData).sort((a, b) => cityData[b].approved - cityData[a].approved);
+            
+            new Chart(document.getElementById('chartMunicipio'), {
+                type: 'bar',
+                data: {
+                    labels: cities,
+                    datasets: [{
+                        label: 'Aprovados',
+                        data: cities.map(c => cityData[c].approved),
+                        backgroundColor: 'rgba(99, 102, 241, 0.8)',
+                        borderRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        datalabels: {
+                            anchor: 'end',
+                            align: 'top',
+                            formatter: (value, ctx) => {
+                                const city = cities[ctx.dataIndex];
+                                const rate = ((cityData[city].approved / cityData[city].students) * 100).toFixed(1);
+                                return value + ' (' + rate + '%)';
+                            },
+                            color: '#374151',
+                            font: { weight: 'bold', size: 10 }
+                        }
+                    },
+                    scales: {
+                        y: { beginAtZero: true, grid: { color: 'rgba(0,0,0,0.05)' } },
+                        x: { grid: { display: false } }
+                    }
+                }
+            });
+
+            // 4. Gráfico 1ª vs 2ª Chamada (Doughnut)
+            const totalC1 = schools.reduce((sum, s) => sum + s.c1, 0);
+            const totalC2 = schools.reduce((sum, s) => sum + s.c2, 0);
+            
+            new Chart(document.getElementById('chartChamadas'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['1ª Chamada', '2ª Chamada'],
+                    datasets: [{
+                        data: [totalC1, totalC2],
+                        backgroundColor: ['rgba(245, 158, 11, 0.9)', 'rgba(16, 185, 129, 0.9)'],
+                        borderWidth: 3,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '60%',
+                    plugins: {
+                        legend: { position: 'bottom' },
+                        datalabels: {
+                            formatter: (value, ctx) => {
+                                const total = totalC1 + totalC2;
+                                const pct = ((value / total) * 100).toFixed(1);
+                                return value + '\n' + pct + '%';
+                            },
+                            color: '#fff',
+                            font: { weight: 'bold', size: 14 },
+                            textAlign: 'center'
+                        }
+                    }
+                }
+            });
+
+            // 5. Top 10 Escolas por Volume
+            new Chart(document.getElementById('chartTop10'), {
+                type: 'bar',
+                data: {
+                    labels: sortedByApproved.map(s => s.name.substring(0, 15) + '...'),
+                    datasets: [{
+                        label: 'Aprovados',
+                        data: sortedByApproved.map(s => s.approved),
+                        backgroundColor: sortedByApproved.map((s, i) => {
+                            const colors = ['#6366f1', '#8b5cf6', '#a855f7', '#d946ef', '#ec4899', '#f43f5e', '#f97316', '#eab308', '#84cc16', '#22c55e'];
+                            return colors[i];
+                        }),
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    plugins: {
+                        legend: { display: false },
+                        datalabels: {
+                            anchor: 'end',
+                            align: 'end',
+                            color: '#374151',
+                            font: { weight: 'bold', size: 11 }
+                        }
+                    },
+                    scales: {
+                        x: { beginAtZero: true, grid: { color: 'rgba(0,0,0,0.05)' } },
+                        y: { grid: { display: false }, ticks: { font: { size: 9 } } }
+                    }
+                }
+            });
+
+            // 6. Status das Escolas (Pie)
+            const statusCount = { 'Excelente (≥20%)': 0, 'Bom (10-20%)': 0, 'Regular (5-10%)': 0, 'Atenção (<5%)': 0 };
+            schools.forEach(s => {
+                if (s.rate >= 20) statusCount['Excelente (≥20%)']++;
+                else if (s.rate >= 10) statusCount['Bom (10-20%)']++;
+                else if (s.rate >= 5) statusCount['Regular (5-10%)']++;
+                else statusCount['Atenção (<5%)']++;
+            });
+            
+            new Chart(document.getElementById('chartStatus'), {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(statusCount),
+                    datasets: [{
+                        data: Object.values(statusCount),
+                        backgroundColor: [
+                            'rgba(16, 185, 129, 0.9)',
+                            'rgba(99, 102, 241, 0.9)',
+                            'rgba(245, 158, 11, 0.9)',
+                            'rgba(239, 68, 68, 0.9)'
+                        ],
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom', labels: { font: { size: 10 }, padding: 10 } },
+                        datalabels: {
+                            formatter: (value) => value + ' escolas',
+                            color: '#fff',
+                            font: { weight: 'bold', size: 12 }
+                        }
+                    }
+                }
+            });
+
+            // 7. Gráfico Scatter - Eficiência vs Tamanho
+            new Chart(document.getElementById('chartScatter'), {
+                type: 'bubble',
+                data: {
+                    datasets: [{
+                        label: 'Escolas',
+                        data: schools.map(s => ({
+                            x: s.students,
+                            y: s.rate,
+                            r: Math.max(s.approved * 1.5, 5),
+                            name: s.name,
+                            approved: s.approved
+                        })),
+                        backgroundColor: schools.map(s => {
+                            if (s.rate >= 20) return 'rgba(16, 185, 129, 0.7)';
+                            if (s.rate >= 10) return 'rgba(99, 102, 241, 0.7)';
+                            if (s.rate >= 5) return 'rgba(245, 158, 11, 0.7)';
+                            return 'rgba(239, 68, 68, 0.7)';
+                        }),
+                        borderColor: schools.map(s => {
+                            if (s.rate >= 20) return 'rgba(16, 185, 129, 1)';
+                            if (s.rate >= 10) return 'rgba(99, 102, 241, 1)';
+                            if (s.rate >= 5) return 'rgba(245, 158, 11, 1)';
+                            return 'rgba(239, 68, 68, 1)';
+                        }),
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        datalabels: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: (ctx) => {
+                                    const d = ctx.raw;
+                                    return [
+                                        d.name,
+                                        `Alunos: ${d.x}`,
+                                        `Taxa: ${d.y.toFixed(2)}%`,
+                                        `Aprovados: ${d.approved}`
+                                    ];
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: { display: true, text: 'Número de Alunos Ativos', font: { weight: 'bold' } },
+                            grid: { color: 'rgba(0,0,0,0.05)' }
+                        },
+                        y: {
+                            title: { display: true, text: 'Taxa de Aprovação (%)', font: { weight: 'bold' } },
+                            beginAtZero: true,
+                            grid: { color: 'rgba(0,0,0,0.05)' },
+                            ticks: { callback: v => v + '%' }
+                        }
+                    }
+                }
+            });
+        }
 
     </script>
 </body>
