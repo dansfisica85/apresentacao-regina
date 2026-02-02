@@ -12,22 +12,23 @@ st.set_page_config(
 )
 
 # --- DADOS (Consolidado Oficial: 2191 Alunos / 182 Aprovados) ---
+# Atualizado: Winston Churchill com 107 alunos ativos conforme solicitado
 data = [
     {"rank": 1, "escola": "DOLORES BELEM NOVAES", "municipio": "Pontal", "alunos": 26, "c1": 8, "c2": 2, "total_aprov": 10},
     {"rank": 2, "escola": "DOLORES MARTINS DE CASTRO", "municipio": "Pontal", "alunos": 9, "c1": 2, "c2": 1, "total_aprov": 3},
     {"rank": 3, "escola": "YOLANDA LUIZ SICHIERI", "municipio": "Pontal", "alunos": 148, "c1": 25, "c2": 11, "total_aprov": 36},
     {"rank": 4, "escola": "ANTONIO FURLAN JUNIOR", "municipio": "Sertãozinho", "alunos": 34, "c1": 6, "c2": 2, "total_aprov": 8},
     {"rank": 5, "escola": "BASILIO RODRIGUES DA SILVA", "municipio": "Pontal", "alunos": 97, "c1": 15, "c2": 5, "total_aprov": 20},
-    {"rank": 6, "escola": "NESTOR GOMES DE ARAUJO", "municipio": "Dumont", "alunos": 73, "c1": 8, "c2": 4, "total_aprov": 12},
-    {"rank": 7, "escola": "MARIA CONCEICAO R. S. MAGON", "municipio": "Sertãozinho", "alunos": 38, "c1": 4, "c2": 2, "total_aprov": 6},
-    {"rank": 8, "escola": "WINSTON CHURCHILL", "municipio": "Sertãozinho", "alunos": 107, "c1": 12, "c2": 7, "total_aprov": 19},
+    {"rank": 6, "escola": "WINSTON CHURCHILL", "municipio": "Sertãozinho", "alunos": 107, "c1": 12, "c2": 7, "total_aprov": 19},
+    {"rank": 7, "escola": "NESTOR GOMES DE ARAUJO", "municipio": "Dumont", "alunos": 73, "c1": 8, "c2": 4, "total_aprov": 12},
+    {"rank": 8, "escola": "MARIA CONCEICAO R. S. MAGON", "municipio": "Sertãozinho", "alunos": 38, "c1": 4, "c2": 2, "total_aprov": 6},
     {"rank": 9, "escola": "MARIA FALCONI DE FELICIO", "municipio": "Pitangueiras", "alunos": 27, "c1": 2, "c2": 1, "total_aprov": 3},
     {"rank": 10, "escola": "DOMINGOS PARO", "municipio": "Pitangueiras", "alunos": 33, "c1": 2, "c2": 1, "total_aprov": 3},
     {"rank": 11, "escola": "MARIA ELYDE M. DOS SANTOS", "municipio": "Terra Roxa", "alunos": 63, "c1": 2, "c2": 3, "total_aprov": 5},
-    {"rank": 12, "escola": "MAURICIO MONTECCHI", "municipio": "Pitangueiras", "alunos": 123, "c1": 3, "c2": 3, "total_aprov": 6},
+    {"rank": 12, "escola": "MAURICIO MONTECCHI", "municipio": "Pitangueiras", "alunos": 123, "c1": 3, "c2": 4, "total_aprov": 7},
     {"rank": 13, "escola": "ORMINDA GUIMARAES COTRIM", "municipio": "Pitangueiras", "alunos": 126, "c1": 3, "c2": 3, "total_aprov": 6},
     {"rank": 14, "escola": "JOSE LUIZ DE SIQUEIRA", "municipio": "Barrinha", "alunos": 175, "c1": 5, "c2": 3, "total_aprov": 8},
-    {"rank": 15, "escola": "BRUNO PIERONI", "municipio": "Sertãozinho", "alunos": 188, "c1": 6, "c2": 2, "total_aprov": 8},
+    {"rank": 15, "escola": "BRUNO PIERONI", "municipio": "Sertãozinho", "alunos": 188, "c1": 6, "c2": 4, "total_aprov": 10},
     {"rank": 16, "escola": "LUIZ MARCARI", "municipio": "Barrinha", "alunos": 134, "c1": 4, "c2": 1, "total_aprov": 5},
     {"rank": 17, "escola": "NICIA FABIOLA ZANUTO GIRALDI", "municipio": "Sertãozinho", "alunos": 57, "c1": 1, "c2": 1, "total_aprov": 2},
     {"rank": 18, "escola": "FERRUCIO CHIARATTI", "municipio": "Sertãozinho", "alunos": 123, "c1": 2, "c2": 2, "total_aprov": 4},
@@ -65,7 +66,9 @@ def get_badge_label(taxa):
 
 # Sidebar
 with st.sidebar:
-    st.image("1.png", use_container_width=True)
+    st.title("📊 Provão Paulista 2026")
+    st.markdown("**Diretoria de Ensino - Sertãozinho**")
+    st.divider()
     st.title("Filtros do Painel")
     
     selected_municipio = st.multiselect(
@@ -208,3 +211,166 @@ st.dataframe(
     use_container_width=True,
     hide_index=True
 )
+
+# --- NOVOS PAINÉIS INTERATIVOS ---
+st.divider()
+st.header("📈 Análises Detalhadas")
+
+# Painel 1: Análise por Município
+col_mun1, col_mun2 = st.columns(2)
+
+with col_mun1:
+    st.subheader("Aprovados por Município")
+    df_mun = df_filtered.groupby('municipio').agg({
+        'total_aprov': 'sum',
+        'alunos': 'sum'
+    }).reset_index()
+    df_mun['taxa_municipio'] = (df_mun['total_aprov'] / df_mun['alunos']) * 100
+    df_mun = df_mun.sort_values('total_aprov', ascending=False)
+    
+    fig_mun = px.bar(
+        df_mun,
+        x='municipio',
+        y='total_aprov',
+        color='taxa_municipio',
+        color_continuous_scale='RdYlGn',
+        text='total_aprov',
+        title='Total de Aprovados por Município'
+    )
+    fig_mun.update_traces(textposition='outside')
+    fig_mun.update_layout(height=400)
+    st.plotly_chart(fig_mun, use_container_width=True)
+
+with col_mun2:
+    st.subheader("Taxa de Aprovação por Município")
+    fig_mun_taxa = px.bar(
+        df_mun.sort_values('taxa_municipio', ascending=True),
+        x='taxa_municipio',
+        y='municipio',
+        orientation='h',
+        color='taxa_municipio',
+        color_continuous_scale='RdYlGn',
+        text=df_mun.sort_values('taxa_municipio', ascending=True)['taxa_municipio'].apply(lambda x: f'{x:.2f}%'),
+        title='Taxa de Aprovação por Município (%)'
+    )
+    fig_mun_taxa.update_traces(textposition='outside')
+    fig_mun_taxa.update_layout(height=400)
+    st.plotly_chart(fig_mun_taxa, use_container_width=True)
+
+# Painel 2: Composição das Chamadas
+st.divider()
+col_ch1, col_ch2, col_ch3 = st.columns(3)
+
+with col_ch1:
+    st.subheader("1ª vs 2ª Chamada")
+    total_c1 = df_filtered['c1'].sum()
+    total_c2 = df_filtered['c2'].sum()
+    
+    fig_chamadas = go.Figure(data=[go.Pie(
+        labels=['1ª Chamada', '2ª Chamada'],
+        values=[total_c1, total_c2],
+        hole=0.5,
+        marker_colors=['#f59e0b', '#10b981'],
+        textinfo='value+percent',
+        textfont_size=14
+    )])
+    fig_chamadas.update_layout(
+        height=350,
+        annotations=[dict(text=f'{total_c1+total_c2}', x=0.5, y=0.5, font_size=24, showarrow=False)]
+    )
+    st.plotly_chart(fig_chamadas, use_container_width=True)
+
+with col_ch2:
+    st.subheader("Status das Escolas")
+    status_counts = {
+        'Excelente (≥20%)': len(df_filtered[df_filtered['taxa'] >= 20]),
+        'Bom (10-20%)': len(df_filtered[(df_filtered['taxa'] >= 10) & (df_filtered['taxa'] < 20)]),
+        'Regular (5-10%)': len(df_filtered[(df_filtered['taxa'] >= 5) & (df_filtered['taxa'] < 10)]),
+        'Atenção (<5%)': len(df_filtered[df_filtered['taxa'] < 5])
+    }
+    
+    fig_status = go.Figure(data=[go.Pie(
+        labels=list(status_counts.keys()),
+        values=list(status_counts.values()),
+        marker_colors=['#10b981', '#6366f1', '#f59e0b', '#ef4444'],
+        textinfo='value+label',
+        textfont_size=11
+    )])
+    fig_status.update_layout(height=350, showlegend=False)
+    st.plotly_chart(fig_status, use_container_width=True)
+
+with col_ch3:
+    st.subheader("Métricas Rápidas")
+    st.metric("Total Aprovados", f"{df_filtered['total_aprov'].sum()}")
+    st.metric("Maior Taxa", f"{df_filtered['taxa'].max():.2f}%", f"{df_filtered[df_filtered['taxa'] == df_filtered['taxa'].max()]['escola'].values[0][:20]}...")
+    st.metric("Menor Taxa (>0)", f"{df_filtered[df_filtered['taxa'] > 0]['taxa'].min():.2f}%")
+    st.metric("Escolas s/ Aprovados", f"{len(df_filtered[df_filtered['total_aprov'] == 0])}")
+
+# Painel 3: Eficiência vs Tamanho (Bubble Chart)
+st.divider()
+st.subheader("📊 Análise de Eficiência vs Tamanho da Escola")
+st.markdown("*Tamanho das bolhas representa o número de aprovados*")
+
+fig_bubble = px.scatter(
+    df_filtered,
+    x='alunos',
+    y='taxa',
+    size='total_aprov',
+    color='taxa',
+    hover_name='escola',
+    hover_data={
+        'municipio': True,
+        'alunos': True,
+        'total_aprov': True,
+        'taxa': ':.2f'
+    },
+    color_continuous_scale='RdYlGn',
+    size_max=60,
+    title='Relação entre Tamanho da Escola e Taxa de Aprovação'
+)
+fig_bubble.update_layout(
+    height=500,
+    xaxis_title='Número de Alunos Ativos',
+    yaxis_title='Taxa de Aprovação (%)',
+    coloraxis_colorbar_title='Taxa (%)'
+)
+fig_bubble.add_hline(y=8.31, line_dash="dash", line_color="red", annotation_text="Média Regional (8.31%)")
+st.plotly_chart(fig_bubble, use_container_width=True)
+
+# Painel 4: Top 10 por Volume
+st.divider()
+col_top1, col_top2 = st.columns(2)
+
+with col_top1:
+    st.subheader("🏆 Top 10 por Taxa de Aprovação")
+    top10_taxa = df_filtered.nlargest(10, 'taxa')[['escola', 'taxa', 'total_aprov', 'alunos']]
+    
+    fig_top_taxa = px.bar(
+        top10_taxa,
+        x='taxa',
+        y='escola',
+        orientation='h',
+        color='taxa',
+        color_continuous_scale='Greens',
+        text=top10_taxa['taxa'].apply(lambda x: f'{x:.2f}%')
+    )
+    fig_top_taxa.update_traces(textposition='outside')
+    fig_top_taxa.update_layout(height=400, yaxis={'categoryorder':'total ascending'})
+    st.plotly_chart(fig_top_taxa, use_container_width=True)
+
+with col_top2:
+    st.subheader("📊 Top 10 por Volume de Aprovados")
+    top10_vol = df_filtered.nlargest(10, 'total_aprov')[['escola', 'taxa', 'total_aprov', 'alunos']]
+    
+    fig_top_vol = px.bar(
+        top10_vol,
+        x='total_aprov',
+        y='escola',
+        orientation='h',
+        color='total_aprov',
+        color_continuous_scale='Blues',
+        text='total_aprov'
+    )
+    fig_top_vol.update_traces(textposition='outside')
+    fig_top_vol.update_layout(height=400, yaxis={'categoryorder':'total ascending'})
+    st.plotly_chart(fig_top_vol, use_container_width=True)
